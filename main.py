@@ -5,6 +5,7 @@ from routes import employee
 from routes.appraisal_cycle import router as cycle_router
 from routes.stage import router as stage_router
 from routes.parameter import router as parameter_router
+from routes.questions import router as question_router
 
 app = FastAPI()
 
@@ -22,4 +23,4 @@ app.include_router(cycle_router)
 app.include_router(stage_router)
 app.include_router(parameter_router)
 app.include_router(employee.router)
-
+app.include_router(question_router)
