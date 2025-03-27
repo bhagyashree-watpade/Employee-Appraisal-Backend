@@ -2,6 +2,10 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routes import employee
 
+from routes.appraisal_cycle import router as cycle_router
+from routes.stage import router as stage_router
+from routes.parameter import router as parameter_router
+
 app = FastAPI()
 
 # Enable CORS
@@ -14,4 +18,8 @@ app.add_middleware(
 )
 
 #existing routes
+app.include_router(cycle_router)
+app.include_router(stage_router)
+app.include_router(parameter_router)
 app.include_router(employee.router)
+
