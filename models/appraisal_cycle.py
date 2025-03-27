@@ -22,4 +22,3 @@ class AppraisalCycle(Base):
     stages = relationship("Stage", back_populates="cycle", cascade="all, delete")
      # Define One-to-Many Relationship
     parameters = relationship("Parameter", back_populates="cycle", cascade="all, delete-orphan")
-    assessment = relationship("LeadAssessmentRating", back_populates="cycle", cascade="all, delete")
