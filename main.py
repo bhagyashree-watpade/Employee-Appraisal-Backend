@@ -6,7 +6,7 @@ from routes.appraisal_cycle import router as cycle_router
 from routes.stage import router as stage_router
 from routes.parameter import router as parameter_router
 from routes.questions import router as question_router
-
+from routes.login import router as login_router
 app = FastAPI()
 
 # Enable CORS
@@ -24,3 +24,4 @@ app.include_router(stage_router)
 app.include_router(parameter_router)
 app.include_router(employee.router)
 app.include_router(question_router)
+app.include_router(login_router)
