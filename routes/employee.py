@@ -4,7 +4,7 @@ from typing import Optional,List
 from database.connection import get_db
 from services.employee import get_all_employees
 # , get_filtered_employees, get_selected_columns
-
+from dao.employee import get_employees_under_manager
 router = APIRouter()
 
 @router.get("/")
@@ -24,3 +24,11 @@ def read_employees_list(db:Session = Depends(get_db)):
 # @router.get("/employees")
 # def read_selected_columns(db:Session = Depends(get_db), columns: Optional[List[str]] = None):
 #     return get_selected_columns(db, columns)
+
+
+@router.get("/reporting/{manager_id}")
+def get_reporting_employees(manager_id: int, db: Session = Depends(get_db)):
+    employees = get_employees_under_manager(db, manager_id)
+    if not employees:
+        raise HTTPException(status_code=404, detail="No employees found under this manager")
+    return employees
