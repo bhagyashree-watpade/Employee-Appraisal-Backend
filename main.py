@@ -6,14 +6,9 @@ from routes.appraisal_cycle import router as cycle_router
 from routes.stage import router as stage_router
 from routes.parameter import router as parameter_router
 from routes.questions import router as question_router
-import models
-from database.connection import engine
-import os
 
 app = FastAPI()
 
-# Create database tables
-models.Base.metadata.create_all(bind=engine)
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
@@ -22,10 +17,6 @@ app.add_middleware(
     allow_methods=["*"],  # Allow all HTTP methods (GET, POST, etc.)
     allow_headers=["*"],  # Allow all headers
 )
-
-@app.get("/")
-def read_root():
-    return {"message": "FastAPI is running on Railway!"}
 
 #existing routes
 app.include_router(cycle_router)
