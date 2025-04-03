@@ -3,7 +3,7 @@
 from schema.appraisal_cycle_pydantic import AppraisalCycleCreate
 
 from sqlalchemy.orm import Session
-from dao.appraisal_cycle import create_cycle, get_all_cycles, get_cycle_by_id
+from dao.appraisal_cycle import create_cycle, get_all_cycles, get_cycle_by_id, get_all_cycles_with_stages, delete_cycle
 
 def add_new_cycle(db: Session, cycle_data: AppraisalCycleCreate):
     return create_cycle(db, cycle_data)
@@ -16,3 +16,9 @@ def fetch_cycle_by_id(db: Session, cycle_id: int):
     if not cycle:
         return None
     return cycle
+
+def fetch_all_cycles_with_stages(db: Session):
+    return get_all_cycles_with_stages(db)
+
+def delete_appraisal_cycle(db: Session, cycle_id: int):
+    return delete_cycle(db, cycle_id)

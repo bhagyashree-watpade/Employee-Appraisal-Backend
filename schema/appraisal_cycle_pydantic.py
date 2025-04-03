@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from datetime import date
-from typing import Literal
+from typing import Literal, List
 
 class AppraisalCycleCreate(BaseModel):
     cycle_name: str
@@ -10,7 +10,22 @@ class AppraisalCycleCreate(BaseModel):
     end_date_of_cycle: date
 
 class AppraisalCycleResponse(AppraisalCycleCreate):
-    cycle_id: int  # Include ID in the response
+    cycle_id: int  
 
     class Config:
         from_attributes = True  # Allows SQLAlchemy models to be converted into Pydantic models
+
+class StageResponse(BaseModel):
+    stage_name: str
+    start_date_of_stage: date
+    end_date_of_stage: date
+
+class AppraisalCycleResponseWithStages(BaseModel):
+    cycle_id: int
+    cycle_name: str
+    description: str
+    status: str
+    start_date_of_cycle: date
+    end_date_of_cycle: date
+    stages: List[StageResponse]
+

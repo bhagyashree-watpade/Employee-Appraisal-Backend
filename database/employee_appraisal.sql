@@ -75,6 +75,14 @@ CREATE TABLE Lead_assessment_rating (
     specific_input TEXT
 );
 
+CREATE TABLE Assigned_Questions (
+    assignment_ID SERIAL PRIMARY KEY,
+    cycle_ID INT REFERENCES Appraisal_cycle(cycle_ID) ON DELETE CASCADE,
+    employee_ID INT REFERENCES Employee(employee_ID) ON DELETE CASCADE,
+    question_ID INT REFERENCES Question(question_ID) ON DELETE CASCADE,
+    UNIQUE (cycle_ID, employee_ID, question_ID) -- Ensures no duplicate question assignment
+);
+
 INSERT INTO Appraisal_cycle (cycle_name, description, status, start_date_of_cycle, end_date_of_cycle)  
 VALUES  
 ('Annual Performance Review', 'Yearly evaluation of employee performance.', 'active', '2024-01-01', '2024-12-31'),  
@@ -84,6 +92,11 @@ VALUES
 
 INSERT INTO Employee (employee_name, role, reporting_manager, previous_reporting_manager, password)  
 VALUES  
+('Smriti mandhana', 'Team Lead', 4, 4, '1234'),
+('Dipti Sharma', 'Employee', 1, 1, '1234'),
+('Akshay Kumar', 'Team Lead', 4, 4, '1234'),
+('Vicky Kaushal', 'Employee', 1, 1, '1234'),
+('Ravindra Jadeja', 'Employee', 5, 1, '1234'),
 ('Hardik Pandya', 'Employee', 5, 1, '1234'),
 ('Krunal Pandya', 'Employee', 1, 1, '1234'),
 ('Ajinkya Rahane', 'Team Lead', 4, 4, '1234'),
@@ -92,6 +105,8 @@ VALUES
 ('Jasprit Bumrah', 'Employee', 5, 1, '1234'),  
 ('MS Dhoni', 'HR', NULL, NULL, '1234'),  
 ('Sachin Tendulkar', 'Team Lead', 4, 4, '1234');
+
+select * from Employee;
 
 INSERT INTO Question (question_type, question_text)
 VALUES 
