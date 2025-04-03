@@ -16,7 +16,7 @@ class AppraisalCycle(Base):
 
     # CHECK Constraint for status column
     __table_args__ = (
-        CheckConstraint("status IN ('active', 'inactive')", name="check_status"),
+        CheckConstraint("status IN ('active', 'inactive', 'completed')", name="check_status"),
     )
 
     stages = relationship("Stage", back_populates="cycle", cascade="all, delete")
