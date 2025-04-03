@@ -9,6 +9,8 @@ from routes.questions import router as question_router
 from routes.login import router as login_router
 from routes.assignment import router as assignment_router
 from routes.employee_allocation import router as employee_allocation_router
+from routes.lead_assessment import router as lead_assessment_router
+
 app = FastAPI()
 
 # Enable CORS
@@ -29,3 +31,4 @@ app.include_router(question_router)
 app.include_router(login_router)
 app.include_router(assignment_router)
 app.include_router(employee_allocation_router)
+app.include_router(lead_assessment_router)

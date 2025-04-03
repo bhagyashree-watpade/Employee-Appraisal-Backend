@@ -18,3 +18,9 @@ def add_parameter(db: Session, parameter_data):
     db.refresh(new_parameter)
     return new_parameter
 
+def get_parameters_for_cycle(db: Session, cycle_id: int, is_lead: bool):
+    """Fetch parameters for a given cycle based on employee role"""
+    return db.query(Parameter).filter(
+        Parameter.cycle_id == cycle_id,
+        (Parameter.applicable_to_lead if is_lead else Parameter.applicable_to_employee) == True
+    ).all()

@@ -4,6 +4,7 @@ from sqlalchemy.orm import Session
 from services.appraisal_cycle import add_new_cycle, fetch_all_cycles, fetch_cycle_by_id, fetch_all_cycles_with_stages, delete_appraisal_cycle
 from schema.appraisal_cycle_pydantic import AppraisalCycleCreate, AppraisalCycleResponse, AppraisalCycleResponseWithStages
 from database.connection import get_db
+from models.appraisal_cycle import AppraisalCycle  # Import your AppraisalCycle model
 
 router = APIRouter(prefix="/appraisal_cycle", tags=["Appraisal Cycle"])
 
@@ -37,4 +38,12 @@ def get_cycle(cycle_id: int, db: Session = Depends(get_db)):
 def delete_cycle(cycle_id: int, db: Session = Depends(get_db)):
     return delete_appraisal_cycle(db,cycle_id)
 
+@router.get("/status/{cycle_id}")
+def get_appraisal_cycle_status(cycle_id: int, db: Session = Depends(get_db)):
+    """Fetch the status of an appraisal cycle by cycle_id."""
+    cycle = db.query(AppraisalCycle).filter(AppraisalCycle.cycle_id == cycle_id).first()
+    
+    if not cycle:
+        raise HTTPException(status_code=404, detail="Appraisal cycle not found")
 
+    return {"cycle_id": cycle.cycle_id, "status": cycle.status}  # Assuming cycle has a 'status' field

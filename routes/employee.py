@@ -1,10 +1,12 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import Optional,List
 from database.connection import get_db
 from services.employee import get_all_employees
 # , get_filtered_employees, get_selected_columns
-from dao.employee import get_employees_under_manager
+from dao.employee import get_employees_under_manager, get_reporting_employees, get_employee_details,get_employees_under_team_lead
+from schema.employee import EmployeeListResponse
+from models.employee import Employee
 router = APIRouter()
 
 @router.get("/")
@@ -32,3 +34,41 @@ def get_reporting_employees(manager_id: int, db: Session = Depends(get_db)):
     if not employees:
         raise HTTPException(status_code=404, detail="No employees found under this manager")
     return employees
+
+
+@router.get("/reporting_manager/{employee_id}")
+def get_reporting_manager(employee_id: int, db: Session = Depends(get_db)):
+    employee = db.query(Employee).filter(Employee.employee_id == employee_id).first()
+
+    if not employee:
+        raise HTTPException(status_code=404, detail="Employee not found")
+
+    if not employee.reporting_manager:  # Ensure the field name is correct
+        return {"reporting_manager_name": "No manager assigned"}
+
+    # Fetch reporting manager's details using the stored ID
+    manager = db.query(Employee).filter(Employee.employee_id == employee.reporting_manager).first()
+
+    if not manager:
+        return {"reporting_manager_name": "Manager not found"}
+
+    return {"reporting_manager_name": manager.employee_name}
+
+
+@router.get("/employee_details/{employee_id}")
+def get_employee(employee_id: int, db: Session = Depends(get_db)):
+    """Fetch employee details including reporting manager"""
+    employee = get_employee_details(db, employee_id)
+    
+    if not employee:
+        raise HTTPException(status_code=404, detail="Employee not found")
+
+    return employee
+
+@router.get("/employees/{cycle_id}/{team_lead_id}")
+def get_employees_for_cycle(cycle_id: int, team_lead_id: int, db: Session = Depends(get_db)):
+    employees = get_employees_under_team_lead(db, cycle_id, team_lead_id)
+    if not employees:
+        raise HTTPException(status_code=404, detail="No employees found for this cycle.")
+    return employees
+

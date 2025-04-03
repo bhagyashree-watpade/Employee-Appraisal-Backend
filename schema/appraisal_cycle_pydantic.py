@@ -5,7 +5,7 @@ from typing import Literal, List
 class AppraisalCycleCreate(BaseModel):
     cycle_name: str
     description: str
-    status: Literal["active", "inactive"]  # Restricts status to these values
+    status: Literal["active", "inactive","completed"]  # Restricts status to these values
     start_date_of_cycle: date
     end_date_of_cycle: date
 

@@ -1,11 +1,11 @@
 from sqlalchemy.orm import Session
 from typing import Optional,List
 from models.employee import Employee
+from models.employee_allocation import  EmployeeAllocation
 
 def fetch_all_employees(db:Session):
     employees_list = db.query(Employee).all()
     return employees_list
-
 
 #new
 def get_employee_by_id(db: Session, employee_id: int):
@@ -22,3 +22,55 @@ def get_employees_under_manager(db: Session, manager_id: int):
     return db.query(Employee).filter(
         (Employee.reporting_manager == manager_id) | (Employee.employee_id == manager_id)
     ).all()
+    
+    
+def get_reporting_employees(db: Session, reporting_manager_id: int) -> List[Employee]:
+    """Fetch employees who report to a specific manager."""
+    return db.query(Employee).filter(Employee.reporting_manager == reporting_manager_id).all()
+
+
+#for getting reporting manager name of the selected employee
+def get_reporting_manager(db: Session, employee_id: int) -> Optional[str]:
+    """Fetch the reporting manager's name for a given employee."""
+    employee = db.query(Employee).filter(Employee.employee_id == employee_id).first()
+    if employee and employee.reporting_manager:
+        manager = db.query(Employee).filter(Employee.employee_id == employee.reporting_manager).first()
+        return manager.employee_name if manager else None
+    return None
+
+
+def get_employee_details(db: Session, employee_id: int):
+    """Fetch employee details along with reporting manager's name"""
+    employee = db.query(Employee).filter(Employee.employee_id == employee_id).first()
+    
+    if not employee:
+        return None  # Employee not found
+    
+    # Fetch reporting manager details if exists
+    reporting_manager = db.query(Employee).filter(Employee.employee_id == employee.reporting_manager).first()
+
+    return {
+        "employee_id": employee.employee_id,
+        "employee_name": employee.employee_name,
+        "role": employee.role,
+        "reporting_manager": reporting_manager.employee_name if reporting_manager else None
+    }
+
+
+def get_employees_under_team_lead(db: Session, cycle_id: int, team_lead_id: int):
+    # Fetch employees under the team lead for the selected cycle
+    employees = db.query(Employee).join(
+        EmployeeAllocation, Employee.employee_id == EmployeeAllocation.employee_id
+    ).filter(
+        EmployeeAllocation.cycle_id == cycle_id,
+        Employee.reporting_manager == team_lead_id
+    ).all()
+
+    # Fetch team lead details separately (ensure they are included)
+    team_lead = db.query(Employee).filter(Employee.employee_id == team_lead_id).first()
+
+    # Combine team lead with employees and remove duplicates (if any)
+    if team_lead and team_lead not in employees:
+        employees.append(team_lead)
+
+    return employees
