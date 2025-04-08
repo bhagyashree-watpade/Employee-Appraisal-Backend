@@ -20,9 +20,9 @@ app.add_middleware(
     # allow_origins=["http://localhost:3000"], 
     allow_origins=["*"],# Allow requests from React app
      # allow_origins=["https://employee-appraisal-frontend-kz69.vercel.app"],  #akanksha
-    # allow_origins=["https://employee-appraisal-frontend-finalllllllllll.vercel.app"],   #bhagyashree
-    # allow_credentials=True,
-    allow_credentials=False,   #for allow_origins=["*"]
+    allow_origins=["https://employee-appraisal-frontend-finalllllllllll.vercel.app"],   #bhagyashree
+    allow_credentials=True,
+    # allow_credentials=False,   #for allow_origins=["*"]
     
     allow_methods=["*"],  # Allow all HTTP methods (GET, POST, etc.)
     allow_headers=["*"],  # Allow all headers
