@@ -13,6 +13,7 @@ from routes.lead_assessment import router as lead_assessment_router
 
 app = FastAPI()
 
+
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
