@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routes import employee
+import logging
+from logger_config import logging
 
 from routes.appraisal_cycle import router as cycle_router
 from routes.stage import router as stage_router
@@ -22,6 +24,8 @@ app.add_middleware(
     allow_headers=["*"],  # Allow all headers
 )
 
+
+logging.info("FastAPI app has started.")
 #existing routes
 app.include_router(cycle_router)
 app.include_router(stage_router)
@@ -32,3 +36,5 @@ app.include_router(login_router)
 app.include_router(assignment_router)
 app.include_router(employee_allocation_router)
 app.include_router(lead_assessment_router)
+
+logging.info("FastAPI app is shutting down.")

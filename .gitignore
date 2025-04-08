@@ -1,2 +1,6 @@
 # Environment variables
+__pycache__/
+app.log
+*.pyc
+.venv/
 .env

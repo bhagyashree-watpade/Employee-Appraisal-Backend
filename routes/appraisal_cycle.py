@@ -5,7 +5,8 @@ from services.appraisal_cycle import add_new_cycle, fetch_all_cycles, fetch_cycl
 from schema.appraisal_cycle_pydantic import AppraisalCycleCreate, AppraisalCycleResponse, AppraisalCycleResponseWithStages
 from database.connection import get_db
 from models.appraisal_cycle import AppraisalCycle  # Import your AppraisalCycle model
-
+import logging
+from logger_config import logging
 router = APIRouter(prefix="/appraisal_cycle", tags=["Appraisal Cycle"])
 
 # Create a new cycle
@@ -23,7 +24,10 @@ def get_cycles(db: Session = Depends(get_db)):
 # Get all cycles with stage names
 @router.get("/with-stage-names", response_model=list[AppraisalCycleResponseWithStages])
 def get_cycles_with_stage_names(db: Session = Depends(get_db)):
-    return fetch_all_cycles_with_stages(db)
+    logging.info("Fetching appraisal cycles with stage names")
+    result = fetch_all_cycles_with_stages(db)
+    logging.info("Fetched %d appraisal cycles", len(result))
+    return result
 
 # Get cycle by ID
 @router.get("/{cycle_id}", response_model=AppraisalCycleResponse)
@@ -36,7 +40,10 @@ def get_cycle(cycle_id: int, db: Session = Depends(get_db)):
 # Delete cycle by ID
 @router.delete("/{cycle_id}")
 def delete_cycle(cycle_id: int, db: Session = Depends(get_db)):
-    return delete_appraisal_cycle(db,cycle_id)
+    logging.info(f"Request to delete appraisal cycle with ID: {cycle_id}")
+    result = delete_appraisal_cycle(db, cycle_id)
+    logging.info(f"Appraisal cycle with ID {cycle_id} deleted successfully")
+    return result
 
 @router.get("/status/{cycle_id}")
 def get_appraisal_cycle_status(cycle_id: int, db: Session = Depends(get_db)):
