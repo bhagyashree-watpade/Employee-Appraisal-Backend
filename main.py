@@ -18,8 +18,9 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     # allow_origins=["http://localhost:3000"], 
-    allow_origins=["*"],# Allow requests from React app
-     # allow_origins=["https://employee-appraisal-frontend-kz69.vercel.app"], 
+    # allow_origins=["*"],# Allow requests from React app
+     # allow_origins=["https://employee-appraisal-frontend-kz69.vercel.app"],  #akanksha
+    allow_origins=["https://employee-appraisal-frontend-finalllllllllll.vercel.app"]   #bhagyashree
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods (GET, POST, etc.)
     allow_headers=["*"],  # Allow all headers
