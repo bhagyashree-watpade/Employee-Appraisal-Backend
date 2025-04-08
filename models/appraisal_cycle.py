@@ -13,6 +13,7 @@ class AppraisalCycle(Base):
     status = Column(String(20), nullable=False)  # Nullable if the column allows NULL values
     start_date_of_cycle = Column(Date, nullable=False)
     end_date_of_cycle = Column(Date, nullable=False)
+   
 
     # CHECK Constraint for status column
     __table_args__ = (
