@@ -51,19 +51,6 @@ def get_appraisal_cycle_status(cycle_id: int, db: Session = Depends(get_db)):
 
 #historical report
 
-# @router.get("/completed-cycles")
-# def get_completed_all_cycles(db: Session = Depends(get_db)):
-#     return get_completed_cycles(db)
-
-
-# @router.get("/completed-cycles", response_model=list[AppraisalCycleResponse])
-# def get_completed_all_cycles(db: Session = Depends(get_db)):
-#     cycles = get_completed_cycles(db)
-#     if not cycles:
-#         raise HTTPException(status_code=404, detail="Cycle not found")
-#     return cycles
-#     # return get_completed_cycles(db)
-
 @router.get("/appraisal-cycles/completed", response_model=list[AppraisalCycleResponse])
 def get_completed_all_cycles(db: Session = Depends(get_db)):
     return get_completed_cycles(db)

@@ -72,8 +72,9 @@ def get_employees_for_cycle(cycle_id: int, team_lead_id: int, db: Session = Depe
         raise HTTPException(status_code=404, detail="No employees found for this cycle.")
     return employees
 
-#historical report
 
+#historical report
+#get all the employees as per employee id in sorted manner
 @router.get("/employees", response_model=list[EmployeeResponse])
 def get_all_sorted_employees(db: Session = Depends(get_db)):
     return get_sorted_employees(db)

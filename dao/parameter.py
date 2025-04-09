@@ -27,8 +27,7 @@ def get_parameters_for_cycle(db: Session, cycle_id: int, is_lead: bool):
 
 
 #for historical report:
-
-
+#to get parameter id from parameter name ( to get the id of "overall performance parameter")
 def get_parameter_id_by_name(db: Session, cycle_id: int, parameter_title: str):
     return db.query(Parameter.parameter_id).filter(
         Parameter.cycle_id == cycle_id,

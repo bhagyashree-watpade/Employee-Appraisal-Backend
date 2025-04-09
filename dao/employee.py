@@ -76,8 +76,6 @@ def get_employees_under_team_lead(db: Session, cycle_id: int, team_lead_id: int)
     return employees
 
 #for historical report
-# def get_all_employees_sorted(db: Session):
-#     return db.query(Employee).order_by(Employee.employee_id).all()
 
 def get_all_employees_sorted(db: Session):
     manager = aliased(Employee)

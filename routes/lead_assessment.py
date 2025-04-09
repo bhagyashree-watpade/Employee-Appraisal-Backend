@@ -60,20 +60,6 @@ def get_previous_ratings(cycle_id: int, employee_id: int, db: Session = Depends(
 
 #historic report
 
-
-
-# @router.get("/overall-rating/")
-# def get_employee_overall_performance_rating(cycle_id: int, employee_id: int, db: Session = Depends(get_db)):
-#     parameter_name = "Overall Performance Rating"
-
-#     result = get_overall_rating_of_employee(db, cycle_id, employee_id, parameter_name)
-
-#     if "error" in result:
-#         raise HTTPException(status_code=404, detail=result["error"])
-
-#     return result
-
-
 #for getting list of employee_id and "overall performance rating" for a selected cycle
 @router.get("/employees_ratings/{cycle_id}", response_model=list[LeadAssessmentRatingResponse])
 def get_employee_ratings(cycle_id: int, db: Session = Depends(get_db)):

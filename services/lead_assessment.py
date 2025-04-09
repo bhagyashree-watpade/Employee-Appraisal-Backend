@@ -87,20 +87,5 @@ def save_lead_assessment_rating(db: Session, cycle_id: int, employee_id: int, ra
 #historical report
 
 
-
-# def get_overall_rating_of_employee(db: Session, cycle_id: int, employee_id: int, parameter_title: str):
-#     parameter_id = get_parameter_id(db, cycle_id, parameter_title)
-    
-#     if not parameter_id:
-#         return {"error": "Parameter not found for the given cycle"}
-
-#     rating = get_overall_performance_rating(db, cycle_id, employee_id, parameter_id)
-
-#     if not rating:
-#         return {"message": "Rating not available for this employee in this cycle"}
-
-#     return {"overall_performance_rating": rating[0]}  # Extract rating from tuple
-
-
 def get_overall_rating_of_employee(db: Session, cycle_id: int):
     return get_overall_performance_rating(db, cycle_id)

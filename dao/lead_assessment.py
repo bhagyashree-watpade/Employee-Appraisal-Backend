@@ -93,14 +93,6 @@ def save_lead_assessment_rating(db: Session, cycle_id: int, employee_id: int, ra
 
 #historical_report
 
-# def get_overall_performance_rating(db: Session, cycle_id: int, employee_id: int, parameter_id: int):
-#     return db.query(LeadAssessmentRating.parameter_rating).filter(
-#         LeadAssessmentRating.cycle_id == cycle_id,
-#         LeadAssessmentRating.employee_id == employee_id,
-#         LeadAssessmentRating.parameter_id == parameter_id
-#     ).first()
-
-
 def get_overall_performance_rating(db: Session, cycle_id: int):
     parameter = db.query(Parameter).filter(Parameter.parameter_title == 'Overall Performance Rating', Parameter.cycle_id == cycle_id).first()
     if not parameter:
