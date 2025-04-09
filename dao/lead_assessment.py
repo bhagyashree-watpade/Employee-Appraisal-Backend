@@ -5,6 +5,7 @@ from models.employee_allocation import EmployeeAllocation
 from models.appraisal_cycle import AppraisalCycle
 from models.parameters import Parameter
 from sqlalchemy.exc import SQLAlchemyError
+from sqlalchemy import func
 
 def save_lead_assessment_rating(db: Session, cycle_id: int, employee_id: int, ratings: list, discussion_date):
     try:
@@ -89,3 +90,23 @@ def save_lead_assessment_rating(db: Session, cycle_id: int, employee_id: int, ra
     except SQLAlchemyError:
         db.rollback()
         raise Exception("Database error occurred while saving ratings.")
+
+#historical_report
+
+# def get_overall_performance_rating(db: Session, cycle_id: int, employee_id: int, parameter_id: int):
+#     return db.query(LeadAssessmentRating.parameter_rating).filter(
+#         LeadAssessmentRating.cycle_id == cycle_id,
+#         LeadAssessmentRating.employee_id == employee_id,
+#         LeadAssessmentRating.parameter_id == parameter_id
+#     ).first()
+
+
+def get_overall_performance_rating(db: Session, cycle_id: int):
+    parameter = db.query(Parameter).filter(Parameter.parameter_title == 'Overall Performance Rating', Parameter.cycle_id == cycle_id).first()
+    if not parameter:
+        return []
+
+    return db.query(LeadAssessmentRating).filter(
+        LeadAssessmentRating.cycle_id == cycle_id,
+        LeadAssessmentRating.parameter_id == parameter.parameter_id
+    ).all()

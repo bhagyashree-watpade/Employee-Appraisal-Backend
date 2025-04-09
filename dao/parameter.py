@@ -24,3 +24,13 @@ def get_parameters_for_cycle(db: Session, cycle_id: int, is_lead: bool):
         Parameter.cycle_id == cycle_id,
         (Parameter.applicable_to_lead if is_lead else Parameter.applicable_to_employee) == True
     ).all()
+
+
+#for historical report:
+
+
+def get_parameter_id_by_name(db: Session, cycle_id: int, parameter_title: str):
+    return db.query(Parameter.parameter_id).filter(
+        Parameter.cycle_id == cycle_id,
+        Parameter.parameter_title == parameter_title
+    ).first()

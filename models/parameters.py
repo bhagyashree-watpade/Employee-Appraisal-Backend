@@ -15,3 +15,4 @@ class Parameter(Base):
     is_fixed_parameter = Column(Boolean)
     cycle = relationship("AppraisalCycle", back_populates="parameters")
     
+    

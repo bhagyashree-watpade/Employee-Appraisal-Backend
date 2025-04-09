@@ -1,8 +1,8 @@
 
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from schema.lead_assessment import LeadAssessmentRatingRequest
-from services.lead_assessment import save_lead_assessment_rating
+from schema.lead_assessment import LeadAssessmentRatingRequest,LeadAssessmentRatingResponse
+from services.lead_assessment import save_lead_assessment_rating, get_overall_rating_of_employee
 from models.lead_assessment import LeadAssessmentRating
 from models.appraisal_cycle import   AppraisalCycle
 from database.connection import get_db
@@ -56,3 +56,28 @@ def get_previous_ratings(cycle_id: int, employee_id: int, db: Session = Depends(
         "ratings": [{"parameter_id": r.parameter_id, "parameter_rating": r.parameter_rating, "specific_input": r.specific_input} for r in previous_ratings],
         "discussion_date": previous_ratings[0].discussion_date if previous_ratings else None
     }
+
+
+#historic report
+
+
+
+# @router.get("/overall-rating/")
+# def get_employee_overall_performance_rating(cycle_id: int, employee_id: int, db: Session = Depends(get_db)):
+#     parameter_name = "Overall Performance Rating"
+
+#     result = get_overall_rating_of_employee(db, cycle_id, employee_id, parameter_name)
+
+#     if "error" in result:
+#         raise HTTPException(status_code=404, detail=result["error"])
+
+#     return result
+
+
+#for getting list of employee_id and "overall performance rating" for a selected cycle
+@router.get("/employees_ratings/{cycle_id}", response_model=list[LeadAssessmentRatingResponse])
+def get_employee_ratings(cycle_id: int, db: Session = Depends(get_db)):
+    data =get_overall_rating_of_employee(db, cycle_id)
+    if not data:
+        raise HTTPException(status_code=404, detail="No data found for this cycle or parameter.")
+    return data
