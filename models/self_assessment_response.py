@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, Text, ForeignKey
-# from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship
 from database.connection import Base  # or from your core base location
 
 class SelfAssessmentResponse(Base):
@@ -12,3 +12,6 @@ class SelfAssessmentResponse(Base):
     question_id = Column(Integer, ForeignKey("question.question_id", ondelete="CASCADE"))
     option_id = Column(Integer, ForeignKey("option.option_id", ondelete="CASCADE"))
     response_text = Column(Text)
+
+    question = relationship("Question", backref="responses")
+    option = relationship("Option", backref="responses", lazy="joined")

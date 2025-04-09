@@ -1,5 +1,5 @@
 from database.connection import Base
-from sqlalchemy import Column, Integer, ForeignKey
+from sqlalchemy import Column, Integer, ForeignKey, UniqueConstraint
 from sqlalchemy.orm import relationship
 
 class QuestionAssignment(Base):
@@ -13,3 +13,7 @@ class QuestionAssignment(Base):
     employee = relationship("Employee")
     question = relationship("Question")
     cycle = relationship("AppraisalCycle")
+
+    __table_args__ = (
+        UniqueConstraint("employee_id", "question_id", "cycle_id", name="uq_employee_question_cycle"),
+    )
