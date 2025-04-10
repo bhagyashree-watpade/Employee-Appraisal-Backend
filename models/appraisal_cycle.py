@@ -5,7 +5,7 @@ from sqlalchemy.orm import relationship
 
   
 class AppraisalCycle(Base):
-    __tablename__ = "appraisal_cycle"  # Make sure the table name matches exactly
+    __tablename__ = "appraisal_cycle"  
 
     cycle_id = Column(Integer, primary_key=True, autoincrement=True)
     cycle_name = Column(String(100), nullable=False)
