@@ -2,10 +2,10 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import Optional,List
 from database.connection import get_db
-from services.employee import get_all_employees
+from services.employee import get_all_employees,get_sorted_employees
 # , get_filtered_employees, get_selected_columns
-from dao.employee import get_employees_under_manager, get_reporting_employees, get_employee_details,get_employees_under_team_lead
-from schema.employee import EmployeeListResponse
+from dao.employee import get_employees_under_manager, get_employee_details,get_employees_under_team_lead   #, get_reporting_employees
+from schema.employee import EmployeeListResponse,EmployeeResponse
 from models.employee import Employee
 router = APIRouter()
 
@@ -72,3 +72,8 @@ def get_employees_for_cycle(cycle_id: int, team_lead_id: int, db: Session = Depe
         raise HTTPException(status_code=404, detail="No employees found for this cycle.")
     return employees
 
+#historical report
+#get all the employees as per employee id in sorted manner
+@router.get("/employees", response_model=list[EmployeeResponse])
+def get_all_sorted_employees(db: Session = Depends(get_db)):
+    return get_sorted_employees(db)

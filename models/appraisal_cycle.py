@@ -5,7 +5,7 @@ from sqlalchemy.orm import relationship
 
   
 class AppraisalCycle(Base):
-    __tablename__ = "appraisal_cycle"  # Make sure the table name matches exactly
+    __tablename__ = "appraisal_cycle"  
 
     cycle_id = Column(Integer, primary_key=True, autoincrement=True)
     cycle_name = Column(String(100), nullable=False)
@@ -13,6 +13,7 @@ class AppraisalCycle(Base):
     status = Column(String(20), nullable=False)  # Nullable if the column allows NULL values
     start_date_of_cycle = Column(Date, nullable=False)
     end_date_of_cycle = Column(Date, nullable=False)
+   
 
     # CHECK Constraint for status column
     __table_args__ = (
