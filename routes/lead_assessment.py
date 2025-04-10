@@ -2,7 +2,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from schema.lead_assessment import LeadAssessmentRatingRequest,LeadAssessmentRatingResponse
-from services.lead_assessment import save_lead_assessment_rating, get_overall_rating_of_employee
+from services.lead_assessment import save_lead_assessment_rating_service, get_overall_rating_of_employee
 from models.lead_assessment import LeadAssessmentRating
 from models.appraisal_cycle import   AppraisalCycle
 from database.connection import get_db
@@ -20,7 +20,7 @@ def save_rating(request: LeadAssessmentRatingRequest, db: Session = Depends(get_
         if cycle.status.lower() != "active":
             raise HTTPException(status_code=400, detail="The selected appraisal cycle is not active.")
 
-        result = save_lead_assessment_rating(
+        result = save_lead_assessment_rating_service(
             db,
             cycle_id=request.cycle_id,
             employee_id=request.employee_id,
@@ -33,7 +33,12 @@ def save_rating(request: LeadAssessmentRatingRequest, db: Session = Depends(get_
         if "No allocation found" in str(ve):  
             raise HTTPException(status_code=404, detail="No allocation found for the selected cycle and employee.")
         raise HTTPException(status_code=400, detail=str(ve))
+    except HTTPException as he:
+      #Re-raise HTTPException without overwriting
+        raise he
+
     except Exception as e:
+        print("unexpected error ", e)
         raise HTTPException(status_code=500, detail="Internal server error.")
 
 
