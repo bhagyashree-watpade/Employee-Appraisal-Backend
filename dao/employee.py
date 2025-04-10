@@ -1,4 +1,4 @@
-from sqlalchemy.orm import Session,aliased
+from sqlalchemy.orm import Session, aliased
 from typing import Optional,List
 from models.employee import Employee
 from models.employee_allocation import  EmployeeAllocation

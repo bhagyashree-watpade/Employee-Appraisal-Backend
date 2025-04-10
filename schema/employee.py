@@ -14,3 +14,4 @@ class EmployeeResponse(BaseModel):
     previous_reporting_manager_name: Optional[str] = None
     class Config:
         orm_mode = True
+
