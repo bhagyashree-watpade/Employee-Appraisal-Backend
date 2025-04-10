@@ -7,7 +7,7 @@ from typing import List
 #     cycle_id: int
 
 class AssignmentCreate(BaseModel):
-    employee_ids: List[int]  # ✅ Changed to plural because it's now a list
+    employee_ids: List[int]  #  Changed to plural because it's now a list
     question_ids: List[int]
     cycle_id: int
 

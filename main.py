@@ -10,6 +10,7 @@ from routes.login import router as login_router
 from routes.assignment import router as assignment_router
 from routes.employee_allocation import router as employee_allocation_router
 from routes.lead_assessment import router as lead_assessment_router
+from routes.employee_assessment import router as assessment_router
 
 app = FastAPI()
 
@@ -35,3 +36,4 @@ app.include_router(login_router)
 app.include_router(assignment_router)
 app.include_router(employee_allocation_router)
 app.include_router(lead_assessment_router)
+app.include_router(assessment_router)
