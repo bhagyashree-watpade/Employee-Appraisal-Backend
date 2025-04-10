@@ -21,10 +21,25 @@ def get_allocated_cycles(db: Session, employee_id: int):
 
 # Fetch questions assigned to the employee for the selected active and completed cycles
 def get_assigned_questions_with_options(db: Session, employee_id: int, cycle_id: int):
-    return db.query(Question).join(QuestionAssignment).filter(
+    # Get the allocation_id for the employee in this cycle
+    allocation = db.query(EmployeeAllocation).filter_by(employee_id=employee_id, cycle_id=cycle_id).first()
+    allocation_id = allocation.allocation_id if allocation else None
+
+    # Get the questions and their options
+    questions = db.query(Question).join(QuestionAssignment).options(
+        joinedload(Question.options)
+    ).filter(
         QuestionAssignment.employee_id == employee_id,
         QuestionAssignment.cycle_id == cycle_id
     ).all()
+
+    # Attach allocation_id to each question (manually for now)
+    for question in questions:
+        question.allocation_id = allocation_id
+
+    return questions
+
+
 
 # Fetch the reponses
 def get_existing_responses(db: Session, employee_id: int, cycle_id: int):

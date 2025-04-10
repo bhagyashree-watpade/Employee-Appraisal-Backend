@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from typing import List
 
 from database.connection import get_db
-from schema.employee_assessment import AssessmentResponseIn, AssessmentResponseOut
+from schema.employee_assessment import AssessmentResponseIn, AssessmentResponseOut,QuestionOut
 from services.employee_assessment import (
     get_employee_cycles,
     get_questions_for_cycle,
@@ -22,7 +22,7 @@ def fetch_employee_cycles(employee_id: int, db: Session = Depends(get_db)):
     return cycles
 
 # Fetch questions assigned to the employee for active and completed cycles
-@router.get("/questions/{employee_id}/{cycle_id}")
+@router.get("/questions/{employee_id}/{cycle_id}", response_model=List[QuestionOut])
 def fetch_questions(employee_id: int, cycle_id: int, db: Session = Depends(get_db)):
     questions = get_questions_for_cycle(db, employee_id, cycle_id)
     if not questions:
