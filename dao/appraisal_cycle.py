@@ -87,3 +87,9 @@ def delete_cycle(db: Session, cycle_id: int):
     db.delete(cycle)
     db.commit()
     return {"message":"Cycle and related stages deleted successfully"}
+
+
+#get all cycles which are completed and active ie. status not equal to inactive
+def get_completed_appraisal_cycles(db: Session):
+    return db.query(AppraisalCycle).filter(AppraisalCycle.status != "inactive").all()
+
