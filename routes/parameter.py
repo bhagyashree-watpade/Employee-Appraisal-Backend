@@ -7,7 +7,6 @@ from services.parameter import fetch_all_parameters, fetch_parameter_by_id, crea
 from schema.parameter import ParameterCreate, ParameterResponse
 from dao.parameter import get_parameters_for_cycle
 from dao.employee import get_employee_by_id
-
 from typing import List
 
 router = APIRouter(prefix="/parameters", tags=["Parameters"])
@@ -35,7 +34,7 @@ def fetch_parameters(cycle_id: int, employee_id: int, db: Session = Depends(get_
         raise HTTPException(status_code=404, detail="Employee not found")
 
     # Determine if employee is a lead
-    is_lead = employee.role.lower() == "lead"
+    is_lead = employee.role.lower() == "team lead"
 
     # Fetch parameters based on role
     parameters = get_parameters_for_cycle(db, cycle_id, is_lead)
