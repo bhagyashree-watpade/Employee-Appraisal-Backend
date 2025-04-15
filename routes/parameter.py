@@ -1,6 +1,4 @@
-
-
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException # type: ignore
 from sqlalchemy.orm import Session
 from database.connection import get_db
 from services.parameter import fetch_all_parameters, fetch_parameter_by_id, create_parameter
