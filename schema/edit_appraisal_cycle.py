@@ -3,11 +3,13 @@ from datetime import date
 from typing import Literal, List
 
 class Stages(BaseModel):
+    stage_id:int
     stage_name: str
     start_date_of_stage: date
     end_date_of_stage: date
 
 class Parameters(BaseModel):
+    parameter_id:int
     parameter_title: str
     helptext : str
     cycle_id: int
@@ -25,4 +27,4 @@ class GetAppraisalCycleResponse(BaseModel):
     end_date_of_cycle: date
     stages: List[Stages]
     parameters: List[Parameters]
-  
+    
