@@ -925,3 +925,122 @@
 2025-04-10 16:10:44,725 - INFO - Cycle with ID 64 updated successfully.
 2025-04-10 16:24:55,937 - INFO - Incoming request to get /self-assessment-report endpoint by user.
 2025-04-10 16:24:56,455 - INFO - Fetched 1 cycle successfully.
+2025-04-10 17:48:20,354 - INFO - Incoming request to get /self-assessment-report endpoint by user.
+2025-04-10 17:48:21,201 - INFO - Fetched 1 cycle successfully.
+2025-04-10 17:48:30,220 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-10 17:48:31,654 - INFO - Fetched 1 cycle successfully.
+2025-04-10 17:48:31,925 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-10 17:48:33,008 - INFO - Fetched 1 cycle successfully.
+2025-04-10 17:48:57,304 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-10 17:48:58,379 - INFO - Fetched 1 cycle successfully.
+2025-04-10 17:48:58,651 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-10 17:48:59,859 - INFO - Fetched 1 cycle successfully.
+2025-04-10 17:49:00,670 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-10 17:49:01,762 - INFO - Fetched 1 cycle successfully.
+2025-04-10 17:49:02,017 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-10 17:49:02,031 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-10 17:49:03,065 - INFO - Fetched 1 cycle successfully.
+2025-04-10 17:49:04,722 - INFO - Fetched 1 cycle successfully.
+2025-04-10 17:49:04,969 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-10 17:49:06,173 - INFO - Fetched 1 cycle successfully.
+2025-04-10 17:49:06,435 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-10 17:49:07,425 - INFO - Fetched 1 cycle successfully.
+2025-04-10 17:49:07,673 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-10 17:49:08,715 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:02:24,720 - INFO - Incoming request to get /self-assessment-report endpoint by user.
+2025-04-15 23:02:25,306 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:02:36,845 - INFO - Incoming request to get /self-assessment-report endpoint by user.
+2025-04-15 23:02:37,453 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:02:50,755 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:02:51,877 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:02:52,186 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:02:53,306 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:04:04,657 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:04:04,657 - INFO - Received request to update appraisal cycle: Update Check
+2025-04-15 23:04:10,356 - INFO - Cycle with ID 76 updated successfully.
+2025-04-15 23:04:22,995 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:04:24,109 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:04:24,380 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:04:25,499 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:04:50,344 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:04:53,027 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:05:37,351 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:05:38,532 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:05:38,803 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:05:39,907 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:06:15,338 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:06:15,338 - INFO - Received request to update appraisal cycle: Update Check
+2025-04-15 23:06:21,851 - INFO - Cycle with ID 76 updated successfully.
+2025-04-15 23:06:31,766 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:06:32,892 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:06:54,353 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:06:55,859 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:07:08,168 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:07:09,663 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:07:24,809 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:07:26,305 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:07:26,591 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:07:27,793 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:07:38,405 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:07:38,405 - INFO - Received request to update appraisal cycle: Update Check
+2025-04-15 23:07:44,462 - INFO - Cycle with ID 76 updated successfully.
+2025-04-15 23:07:54,921 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:07:56,066 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:07:56,332 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:07:57,513 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:22:32,895 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:22:34,090 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:22:34,357 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:22:35,561 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:22:39,691 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:22:39,691 - INFO - Received request to update appraisal cycle: Update Check
+2025-04-15 23:22:46,795 - INFO - Cycle with ID 76 updated successfully.
+2025-04-15 23:22:56,942 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:22:58,089 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:22:58,362 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:22:59,549 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:23:09,599 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:23:11,284 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:23:47,360 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:23:47,360 - INFO - Received request to update appraisal cycle: Update Check
+2025-04-15 23:23:53,867 - INFO - Cycle with ID 76 updated successfully.
+2025-04-15 23:24:05,758 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:24:06,957 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:25:32,390 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:25:32,390 - INFO - Received request to update appraisal cycle: Update Check
+2025-04-15 23:25:37,874 - INFO - Cycle with ID 76 updated successfully.
+2025-04-15 23:25:56,976 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:25:58,056 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:26:17,682 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:26:18,794 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:29:21,624 - INFO - Incoming request to get /self-assessment-report endpoint by user.
+2025-04-15 23:29:22,202 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:37:51,163 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:37:52,460 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:37:52,764 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:37:53,893 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:37:56,817 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:37:56,818 - INFO - Received request to update appraisal cycle: Edit Demo Check
+2025-04-15 23:38:01,938 - INFO - Cycle with ID 78 updated successfully.
+2025-04-15 23:38:44,108 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:38:45,366 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:38:45,664 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:38:46,768 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:39:18,591 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:39:18,591 - INFO - Received request to update appraisal cycle: Edit Demo Check
+2025-04-15 23:39:24,314 - INFO - Cycle with ID 80 updated successfully.
+2025-04-15 23:40:01,795 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:40:02,891 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:40:03,296 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:40:04,526 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:40:14,318 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:40:15,450 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:40:15,732 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:40:16,861 - INFO - Fetched 1 cycle successfully.
+2025-04-15 23:40:21,805 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-15 23:40:21,805 - INFO - Received request to update appraisal cycle: Edit Demo Check
+2025-04-15 23:40:28,004 - INFO - Cycle with ID 79 updated successfully.
+2025-04-15 23:43:17,748 - INFO - Incoming request to get /self-assessment-report endpoint by user.
+2025-04-15 23:43:18,334 - ERROR - No responses found in the database.
+2025-04-15 23:45:20,187 - INFO - Incoming request to get /self-assessment-report endpoint by user.
+2025-04-15 23:45:20,734 - INFO - Fetched 1 cycle successfully.
