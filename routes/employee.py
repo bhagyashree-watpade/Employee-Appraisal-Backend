@@ -35,24 +35,31 @@ def get_reporting_employees(manager_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="No employees found under this manager")
     return employees
 
-
 @router.get("/reporting_manager/{employee_id}")
 def get_reporting_manager(employee_id: int, db: Session = Depends(get_db)):
+    # Get employee details from the database
     employee = db.query(Employee).filter(Employee.employee_id == employee_id).first()
 
+    # If employee is not found
     if not employee:
         raise HTTPException(status_code=404, detail="Employee not found")
 
+    # If the employee doesn't have a reporting manager
     if not employee.reporting_manager:  # Ensure the field name is correct
-        return {"reporting_manager_name": "No manager assigned"}
+        return {"reporting_manager_id": None, "reporting_manager_name": "No manager assigned"}
 
-    # Fetch reporting manager's details using the stored ID
+    # Fetch reporting manager's details using the stored manager ID
     manager = db.query(Employee).filter(Employee.employee_id == employee.reporting_manager).first()
 
+    # If no manager is found
     if not manager:
-        return {"reporting_manager_name": "Manager not found"}
+        return {"reporting_manager_id": None, "reporting_manager_name": "Manager not found"}
 
-    return {"reporting_manager_name": manager.employee_name}
+    # Return both reporting manager's ID and name
+    return {
+        "reporting_manager_id": manager.employee_id,
+        "reporting_manager_name": manager.employee_name
+    }
 
 
 @router.get("/employee_details/{employee_id}")
