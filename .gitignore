@@ -1,7 +1,8 @@
 # Environment variables
 .env
-__pycache__
+__pycache__/
 .venv/
 *.pyc
 *.log
 app.log
+**/__pycache__/
