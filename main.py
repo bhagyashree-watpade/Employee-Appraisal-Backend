@@ -11,16 +11,17 @@ from routes.assignment import router as assignment_router
 from routes.employee_allocation import router as employee_allocation_router
 from routes.lead_assessment import router as lead_assessment_router
 from routes.employee_assessment import router as assessment_router
-
+from routes.edit_appraisal_cycle import router as edit_router
+from routes.self_assess_report import router as self_assess_router
 app = FastAPI()
 
 
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"], 
+    # allow_origins=["http://localhost:3000"], 
      # allow_origins=["https://employee-appraisal-frontend-kz69.vercel.app"],  #akanksha
-    # allow_origins=["https://employee-appraisal-frontend-finalllllllllll.vercel.app"],   #bhagyashree
+    allow_origins=["https://employee-appraisal-frontend-final.vercel.app"],   #bhagyashree
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods (GET, POST, etc.)
     allow_headers=["*"],  # Allow all headers
@@ -37,3 +38,5 @@ app.include_router(assignment_router)
 app.include_router(employee_allocation_router)
 app.include_router(lead_assessment_router)
 app.include_router(assessment_router)
+app.include_router(edit_router)
+app.include_router(self_assess_router)

@@ -1,4 +1,4 @@
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, aliased
 from typing import Optional,List
 from models.employee import Employee
 from models.employee_allocation import  EmployeeAllocation
@@ -74,3 +74,23 @@ def get_employees_under_team_lead(db: Session, cycle_id: int, team_lead_id: int)
         employees.append(team_lead)
 
     return employees
+
+#for historical report
+
+def get_all_employees_sorted(db: Session):
+    manager = aliased(Employee)
+    prev_manager = aliased(Employee)
+
+    result = db.query(
+        Employee.employee_id,
+        Employee.employee_name,
+        Employee.role,
+        manager.employee_name.label("reporting_manager_name"),
+        prev_manager.employee_name.label("previous_reporting_manager_name")
+    ).outerjoin(
+        manager, Employee.reporting_manager == manager.employee_id
+    ).outerjoin(
+        prev_manager, Employee.previous_reporting_manager == prev_manager.employee_id
+    ).order_by(Employee.employee_id).all()
+
+    return result

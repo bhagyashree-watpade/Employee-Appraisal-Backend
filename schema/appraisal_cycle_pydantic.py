@@ -13,7 +13,8 @@ class AppraisalCycleResponse(AppraisalCycleCreate):
     cycle_id: int  
 
     class Config:
-        from_attributes = True  # Allows SQLAlchemy models to be converted into Pydantic models
+        # from_attributes = True  # Allows SQLAlchemy models to be converted into Pydantic models
+        orm_mode = True
 
 class StageResponse(BaseModel):
     stage_name: str
