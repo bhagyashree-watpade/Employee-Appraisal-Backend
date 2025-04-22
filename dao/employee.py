@@ -94,3 +94,9 @@ def get_all_employees_sorted(db: Session):
     ).order_by(Employee.employee_id).all()
 
     return result
+
+
+#to get employee by role id
+def get_employee_by_role_id(db: Session, role_id: str):
+    """Fetch employee by role ID."""
+    return db.query(Employee).filter(Employee.role_id == role_id).first()
