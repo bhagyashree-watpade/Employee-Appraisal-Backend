@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routes import employee
 
+from Scheduler.jobs import start_scheduler 
+from routes import employee
 from routes.appraisal_cycle import router as cycle_router
 from routes.stage import router as stage_router
 from routes.parameter import router as parameter_router
@@ -13,8 +14,12 @@ from routes.lead_assessment import router as lead_assessment_router
 from routes.employee_assessment import router as assessment_router
 from routes.edit_appraisal_cycle import router as edit_router
 from routes.self_assess_report import router as self_assess_router
+
 app = FastAPI()
 
+@app.on_event("startup")
+def startup_event():
+    start_scheduler()
 
 # Enable CORS
 app.add_middleware(
