@@ -35,3 +35,17 @@ def create_stage(db: Session, stage_data: StageCreate):
     db.commit()
     db.refresh(new_stage)
     return new_stage
+
+#for showing the question for the self assessment questions based on the stage status
+def get_self_assessment_stage_by_cycle_id(db: Session, cycle_id: int):
+    return db.query(Stage).filter(
+        Stage.cycle_id == cycle_id,
+        Stage.stage_name.ilike("Self Assessment")
+    ).first()
+    
+
+def get_lead_assessment_stage_by_cycle_id(db: Session, cycle_id: int):
+    return db.query(Stage).filter(
+        Stage.cycle_id == cycle_id,
+        Stage.stage_name.ilike("Lead Assessment")
+    ).first()

@@ -1044,3 +1044,2099 @@
 2025-04-15 23:43:18,334 - ERROR - No responses found in the database.
 2025-04-15 23:45:20,187 - INFO - Incoming request to get /self-assessment-report endpoint by user.
 2025-04-15 23:45:20,734 - INFO - Fetched 1 cycle successfully.
+2025-04-24 01:52:58,056 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 01:52:58,061 - INFO - Added job "start_scheduler.<locals>.update_stage_job" to job store "default"
+2025-04-24 01:52:58,061 - INFO - Scheduler started
+2025-04-24 01:53:58,067 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 01:53:58 IST)" (scheduled at 2025-04-24 01:53:58.055751+05:30)
+2025-04-24 01:54:02,402 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 01:54:58 IST)" executed successfully
+2025-04-24 01:54:58,067 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 01:55:58 IST)" (scheduled at 2025-04-24 01:54:58.055751+05:30)
+2025-04-24 01:55:02,327 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 01:55:58 IST)" executed successfully
+2025-04-24 01:55:58,058 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 01:56:58 IST)" (scheduled at 2025-04-24 01:55:58.055751+05:30)
+2025-04-24 01:56:02,382 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 01:56:58 IST)" executed successfully
+2025-04-24 01:56:58,071 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 01:57:58 IST)" (scheduled at 2025-04-24 01:56:58.055751+05:30)
+2025-04-24 01:57:02,487 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 01:57:58 IST)" executed successfully
+2025-04-24 01:57:58,067 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 01:58:58 IST)" (scheduled at 2025-04-24 01:57:58.055751+05:30)
+2025-04-24 01:58:02,498 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 01:58:58 IST)" executed successfully
+2025-04-24 01:58:58,062 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 01:59:58 IST)" (scheduled at 2025-04-24 01:58:58.055751+05:30)
+2025-04-24 01:59:04,403 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 01:59:58 IST)" executed successfully
+2025-04-24 01:59:58,069 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:00:58 IST)" (scheduled at 2025-04-24 01:59:58.055751+05:30)
+2025-04-24 02:00:03,136 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:00:58 IST)" executed successfully
+2025-04-24 02:00:58,063 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:01:58 IST)" (scheduled at 2025-04-24 02:00:58.055751+05:30)
+2025-04-24 02:01:03,070 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:01:58 IST)" executed successfully
+2025-04-24 02:01:58,062 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:02:58 IST)" (scheduled at 2025-04-24 02:01:58.055751+05:30)
+2025-04-24 02:02:02,906 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:02:58 IST)" executed successfully
+2025-04-24 02:02:19,890 - INFO - Incoming request to get /self-assessment-report endpoint by user.
+2025-04-24 02:02:20,432 - ERROR - No responses found in the database.
+2025-04-24 02:02:38,057 - INFO - Incoming request to get /self-assessment-report endpoint by user.
+2025-04-24 02:02:38,592 - INFO - Fetched 1 cycle successfully.
+2025-04-24 02:02:43,539 - INFO - Incoming request to get /self-assessment-report endpoint by user.
+2025-04-24 02:02:44,069 - ERROR - No responses found in the database.
+2025-04-24 02:02:58,061 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:03:58 IST)" (scheduled at 2025-04-24 02:02:58.055751+05:30)
+2025-04-24 02:03:02,858 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:03:58 IST)" executed successfully
+2025-04-24 02:03:58,065 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:04:58 IST)" (scheduled at 2025-04-24 02:03:58.055751+05:30)
+2025-04-24 02:04:02,943 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:04:58 IST)" executed successfully
+2025-04-24 02:04:58,059 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:05:58 IST)" (scheduled at 2025-04-24 02:04:58.055751+05:30)
+2025-04-24 02:05:13,942 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:05:58 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1142, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 703, in do_commit
+    dbapi_connection.commit()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 67, in update_current_stage
+    db.commit()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2032, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1320, in commit
+    trans.commit()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2629, in commit
+    self._do_commit()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2734, in _do_commit
+    self._connection_commit_impl()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2705, in _connection_commit_impl
+    self.connection._commit_impl()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1144, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1142, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 703, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 02:05:58,058 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:06:58 IST)" (scheduled at 2025-04-24 02:05:58.055751+05:30)
+2025-04-24 02:05:58,235 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:06:58 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 718, in checkout
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 716, in checkout
+    dbapi_connection = rec.get_connection()
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 867, in get_connection
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 26, in update_current_stage
+    all_stages = db.query(Stage).all()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2241, in _execute_internal
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2110, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 718, in checkout
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 716, in checkout
+    dbapi_connection = rec.get_connection()
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 867, in get_connection
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 02:06:58,069 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:07:58 IST)" (scheduled at 2025-04-24 02:06:58.055751+05:30)
+2025-04-24 02:07:09,973 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:07:58 IST)" executed successfully
+2025-04-24 02:07:58,072 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:08:58 IST)" (scheduled at 2025-04-24 02:07:58.055751+05:30)
+2025-04-24 02:08:05,403 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:08:58 IST)" executed successfully
+2025-04-24 02:08:58,059 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:09:58 IST)" (scheduled at 2025-04-24 02:08:58.055751+05:30)
+2025-04-24 02:09:05,858 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:09:58 IST)" executed successfully
+2025-04-24 02:09:58,059 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:10:58 IST)" (scheduled at 2025-04-24 02:09:58.055751+05:30)
+2025-04-24 02:10:05,413 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:10:58 IST)" executed successfully
+2025-04-24 02:10:58,069 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:11:58 IST)" (scheduled at 2025-04-24 02:10:58.055751+05:30)
+2025-04-24 02:11:05,407 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:11:58 IST)" executed successfully
+2025-04-24 02:11:58,059 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:12:58 IST)" (scheduled at 2025-04-24 02:11:58.055751+05:30)
+2025-04-24 02:12:05,063 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:12:58 IST)" executed successfully
+2025-04-24 02:12:58,072 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:13:58 IST)" (scheduled at 2025-04-24 02:12:58.055751+05:30)
+2025-04-24 02:13:06,290 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:13:58 IST)" executed successfully
+2025-04-24 02:13:58,064 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:14:58 IST)" (scheduled at 2025-04-24 02:13:58.055751+05:30)
+2025-04-24 02:14:06,270 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:14:58 IST)" executed successfully
+2025-04-24 02:15:31,004 - WARNING - Run time of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:15:58 IST)" was missed by 0:00:32.945613
+2025-04-24 02:15:38,628 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 02:15:39,359 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 02:15:43,391 - INFO - Fetched 1 cycle successfully.
+2025-04-24 02:15:58,065 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:16:58 IST)" (scheduled at 2025-04-24 02:15:58.055751+05:30)
+2025-04-24 02:16:06,469 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:16:58 IST)" executed successfully
+2025-04-24 02:16:58,066 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:17:58 IST)" (scheduled at 2025-04-24 02:16:58.055751+05:30)
+2025-04-24 02:17:07,416 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:17:58 IST)" executed successfully
+2025-04-24 02:17:58,058 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:18:58 IST)" (scheduled at 2025-04-24 02:17:58.055751+05:30)
+2025-04-24 02:18:03,964 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:18:58 IST)" executed successfully
+2025-04-24 02:18:58,068 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:19:58 IST)" (scheduled at 2025-04-24 02:18:58.055751+05:30)
+2025-04-24 02:19:06,930 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:19:58 IST)" executed successfully
+2025-04-24 02:19:58,063 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:20:58 IST)" (scheduled at 2025-04-24 02:19:58.055751+05:30)
+2025-04-24 02:20:05,126 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:20:58 IST)" executed successfully
+2025-04-24 02:20:58,067 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:21:58 IST)" (scheduled at 2025-04-24 02:20:58.055751+05:30)
+2025-04-24 02:21:04,274 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:21:58 IST)" executed successfully
+2025-04-24 02:21:58,060 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:22:58 IST)" (scheduled at 2025-04-24 02:21:58.055751+05:30)
+2025-04-24 02:22:04,079 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:22:58 IST)" executed successfully
+2025-04-24 02:22:58,061 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:23:58 IST)" (scheduled at 2025-04-24 02:22:58.055751+05:30)
+2025-04-24 02:23:02,958 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:23:58 IST)" executed successfully
+2025-04-24 02:23:58,063 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:24:58 IST)" (scheduled at 2025-04-24 02:23:58.055751+05:30)
+2025-04-24 02:24:03,795 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:24:58 IST)" executed successfully
+2025-04-24 02:24:58,069 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:25:58 IST)" (scheduled at 2025-04-24 02:24:58.055751+05:30)
+2025-04-24 02:25:04,399 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:25:58 IST)" executed successfully
+2025-04-24 02:25:58,057 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:26:58 IST)" (scheduled at 2025-04-24 02:25:58.055751+05:30)
+2025-04-24 02:26:03,744 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:26:58 IST)" executed successfully
+2025-04-24 02:26:58,061 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:27:58 IST)" (scheduled at 2025-04-24 02:26:58.055751+05:30)
+2025-04-24 02:27:03,906 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:27:58 IST)" executed successfully
+2025-04-24 02:27:58,063 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:28:58 IST)" (scheduled at 2025-04-24 02:27:58.055751+05:30)
+2025-04-24 02:28:03,743 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:28:58 IST)" executed successfully
+2025-04-24 02:28:58,059 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:29:58 IST)" (scheduled at 2025-04-24 02:28:58.055751+05:30)
+2025-04-24 02:29:03,190 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:29:58 IST)" executed successfully
+2025-04-24 02:29:58,086 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:30:58 IST)" (scheduled at 2025-04-24 02:29:58.055751+05:30)
+2025-04-24 02:30:05,671 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:30:58 IST)" executed successfully
+2025-04-24 02:35:13,348 - WARNING - Run time of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:35:58 IST)" was missed by 0:00:15.291788
+2025-04-24 02:35:58,060 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:36:58 IST)" (scheduled at 2025-04-24 02:35:58.055751+05:30)
+2025-04-24 02:35:58,148 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:36:58 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 26, in update_current_stage
+    all_stages = db.query(Stage).all()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[SQL: SELECT stages.stage_id AS stages_stage_id, stages.stage_name AS stages_stage_name, stages.cycle_id AS stages_cycle_id, stages.start_date_of_stage AS stages_start_date_of_stage, stages.end_date_of_stage AS stages_end_date_of_stage, stages.is_active AS stages_is_active, stages.is_completed AS stages_is_completed 
+FROM stages]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 02:36:58,067 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:37:58 IST)" (scheduled at 2025-04-24 02:36:58.055751+05:30)
+2025-04-24 02:37:06,079 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:37:58 IST)" executed successfully
+2025-04-24 02:37:58,068 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:38:58 IST)" (scheduled at 2025-04-24 02:37:58.055751+05:30)
+2025-04-24 02:38:07,699 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:38:58 IST)" executed successfully
+2025-04-24 02:38:58,061 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:39:58 IST)" (scheduled at 2025-04-24 02:38:58.055751+05:30)
+2025-04-24 02:39:05,968 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:39:58 IST)" executed successfully
+2025-04-24 02:39:58,061 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:40:58 IST)" (scheduled at 2025-04-24 02:39:58.055751+05:30)
+2025-04-24 02:40:05,262 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:40:58 IST)" executed successfully
+2025-04-24 02:40:58,071 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:41:58 IST)" (scheduled at 2025-04-24 02:40:58.055751+05:30)
+2025-04-24 02:41:07,222 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:41:58 IST)" executed successfully
+2025-04-24 02:41:58,061 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:42:58 IST)" (scheduled at 2025-04-24 02:41:58.055751+05:30)
+2025-04-24 02:42:03,872 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:42:58 IST)" executed successfully
+2025-04-24 02:42:58,057 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:43:58 IST)" (scheduled at 2025-04-24 02:42:58.055751+05:30)
+2025-04-24 02:43:02,783 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:43:58 IST)" executed successfully
+2025-04-24 02:43:58,062 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:44:58 IST)" (scheduled at 2025-04-24 02:43:58.055751+05:30)
+2025-04-24 02:44:03,360 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:44:58 IST)" executed successfully
+2025-04-24 02:44:58,063 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:45:58 IST)" (scheduled at 2025-04-24 02:44:58.055751+05:30)
+2025-04-24 02:45:02,776 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:45:58 IST)" executed successfully
+2025-04-24 02:45:58,070 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:46:58 IST)" (scheduled at 2025-04-24 02:45:58.055751+05:30)
+2025-04-24 02:46:03,433 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:46:58 IST)" executed successfully
+2025-04-24 02:46:58,067 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:47:58 IST)" (scheduled at 2025-04-24 02:46:58.055751+05:30)
+2025-04-24 02:47:03,516 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:47:58 IST)" executed successfully
+2025-04-24 02:47:58,057 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:48:58 IST)" (scheduled at 2025-04-24 02:47:58.055751+05:30)
+2025-04-24 02:48:03,351 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:48:58 IST)" executed successfully
+2025-04-24 02:48:58,057 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:49:58 IST)" (scheduled at 2025-04-24 02:48:58.055751+05:30)
+2025-04-24 02:49:04,014 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:49:58 IST)" executed successfully
+2025-04-24 02:49:58,070 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:50:58 IST)" (scheduled at 2025-04-24 02:49:58.055751+05:30)
+2025-04-24 02:50:03,786 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:50:58 IST)" executed successfully
+2025-04-24 02:50:58,059 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:51:58 IST)" (scheduled at 2025-04-24 02:50:58.055751+05:30)
+2025-04-24 02:51:03,550 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:51:58 IST)" executed successfully
+2025-04-24 02:51:58,070 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:52:58 IST)" (scheduled at 2025-04-24 02:51:58.055751+05:30)
+2025-04-24 02:52:03,465 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 02:52:58 IST)" executed successfully
+2025-04-24 11:23:43,346 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 11:23:43,349 - INFO - Added job "start_scheduler.<locals>.update_stage_job" to job store "default"
+2025-04-24 11:23:43,349 - INFO - Scheduler started
+2025-04-24 11:24:43,349 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:24:43 IST)" (scheduled at 2025-04-24 11:24:43.346909+05:30)
+2025-04-24 11:24:52,094 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:25:43 IST)" executed successfully
+2025-04-24 11:25:43,349 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:26:43 IST)" (scheduled at 2025-04-24 11:25:43.346909+05:30)
+2025-04-24 11:25:51,799 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:26:43 IST)" executed successfully
+2025-04-24 11:26:43,362 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:27:43 IST)" (scheduled at 2025-04-24 11:26:43.346909+05:30)
+2025-04-24 11:26:49,432 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:27:43 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 54, in update_current_stage
+    ).order_by(Stage.start_date_of_stage.asc()).all()
+                                                ^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[SQL: SELECT stages.stage_id AS stages_stage_id, stages.stage_name AS stages_stage_name, stages.cycle_id AS stages_cycle_id, stages.start_date_of_stage AS stages_start_date_of_stage, stages.end_date_of_stage AS stages_end_date_of_stage, stages.is_active AS stages_is_active, stages.is_completed AS stages_is_completed 
+FROM stages 
+WHERE stages.cycle_id = %(cycle_id_1)s AND stages.start_date_of_stage <= %(start_date_of_stage_1)s AND stages.end_date_of_stage >= %(end_date_of_stage_1)s ORDER BY stages.start_date_of_stage ASC]
+[parameters: {'cycle_id_1': 74, 'start_date_of_stage_1': datetime.date(2025, 4, 24), 'end_date_of_stage_1': datetime.date(2025, 4, 24)}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 11:27:43,355 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:28:43 IST)" (scheduled at 2025-04-24 11:27:43.346909+05:30)
+2025-04-24 11:27:56,164 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:28:43 IST)" executed successfully
+2025-04-24 11:28:43,347 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:29:43 IST)" (scheduled at 2025-04-24 11:28:43.346909+05:30)
+2025-04-24 11:28:56,331 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:29:43 IST)" executed successfully
+2025-04-24 11:29:43,359 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:30:43 IST)" (scheduled at 2025-04-24 11:29:43.346909+05:30)
+2025-04-24 11:29:52,744 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:30:43 IST)" executed successfully
+2025-04-24 11:30:43,349 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:31:43 IST)" (scheduled at 2025-04-24 11:30:43.346909+05:30)
+2025-04-24 11:30:56,048 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:31:43 IST)" executed successfully
+2025-04-24 11:31:43,354 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:32:43 IST)" (scheduled at 2025-04-24 11:31:43.346909+05:30)
+2025-04-24 11:31:52,806 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:32:43 IST)" executed successfully
+2025-04-24 11:32:43,352 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:33:43 IST)" (scheduled at 2025-04-24 11:32:43.346909+05:30)
+2025-04-24 11:32:54,472 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:33:43 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 713, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 675, in __init__
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "switchyard.proxy.rlwy.net" to address: The requested name is valid, but no data of the requested type was found. 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 26, in update_current_stage
+    all_stages = db.query(Stage).all()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2241, in _execute_internal
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2110, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 713, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 675, in __init__
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "switchyard.proxy.rlwy.net" to address: The requested name is valid, but no data of the requested type was found. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 11:33:43,358 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:34:43 IST)" (scheduled at 2025-04-24 11:33:43.346909+05:30)
+2025-04-24 11:33:43,361 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:34:43 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 718, in checkout
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 716, in checkout
+    dbapi_connection = rec.get_connection()
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 838, in get_connection
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 26, in update_current_stage
+    all_stages = db.query(Stage).all()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2241, in _execute_internal
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2110, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 718, in checkout
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 716, in checkout
+    dbapi_connection = rec.get_connection()
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 838, in get_connection
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 11:34:02,398 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-24 11:34:02,399 - INFO - Added job "start_scheduler.<locals>.update_stage_job" to job store "default"
+2025-04-24 11:34:02,399 - INFO - Scheduler started
+2025-04-24 11:35:02,411 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:35:02 IST)" (scheduled at 2025-04-24 11:35:02.398063+05:30)
+2025-04-24 11:35:02,422 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:36:02 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 713, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 675, in __init__
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 26, in update_current_stage
+    all_stages = db.query(Stage).all()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2241, in _execute_internal
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2110, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 713, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 675, in __init__
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 11:36:02,405 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:37:02 IST)" (scheduled at 2025-04-24 11:36:02.398063+05:30)
+2025-04-24 11:36:02,410 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:37:02 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 713, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 675, in __init__
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 26, in update_current_stage
+    all_stages = db.query(Stage).all()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2241, in _execute_internal
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2110, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 713, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 675, in __init__
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 11:37:02,409 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:38:02 IST)" (scheduled at 2025-04-24 11:37:02.398063+05:30)
+2025-04-24 11:37:02,414 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:38:02 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 713, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 675, in __init__
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 26, in update_current_stage
+    all_stages = db.query(Stage).all()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2241, in _execute_internal
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2110, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 713, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 675, in __init__
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 11:38:24,784 - WARNING - Run time of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:39:02 IST)" was missed by 0:00:22.385767
+2025-04-24 11:39:02,407 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:40:02 IST)" (scheduled at 2025-04-24 11:39:02.398063+05:30)
+2025-04-24 11:39:11,430 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:40:02 IST)" executed successfully
+2025-04-24 11:40:02,409 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:41:02 IST)" (scheduled at 2025-04-24 11:40:02.398063+05:30)
+2025-04-24 11:40:08,338 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:41:02 IST)" executed successfully
+2025-04-24 11:41:02,410 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:42:02 IST)" (scheduled at 2025-04-24 11:41:02.398063+05:30)
+2025-04-24 11:41:08,903 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:42:02 IST)" executed successfully
+2025-04-24 11:42:02,413 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:43:02 IST)" (scheduled at 2025-04-24 11:42:02.398063+05:30)
+2025-04-24 11:42:08,502 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:43:02 IST)" executed successfully
+2025-04-24 11:43:02,411 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:44:02 IST)" (scheduled at 2025-04-24 11:43:02.398063+05:30)
+2025-04-24 11:43:15,682 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:44:02 IST)" executed successfully
+2025-04-24 11:44:02,408 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:45:02 IST)" (scheduled at 2025-04-24 11:44:02.398063+05:30)
+2025-04-24 11:44:09,439 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:45:02 IST)" executed successfully
+2025-04-24 11:45:02,407 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:46:02 IST)" (scheduled at 2025-04-24 11:45:02.398063+05:30)
+2025-04-24 11:45:09,038 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:46:02 IST)" executed successfully
+2025-04-24 11:46:02,407 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:47:02 IST)" (scheduled at 2025-04-24 11:46:02.398063+05:30)
+2025-04-24 11:46:07,606 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:47:02 IST)" executed successfully
+2025-04-24 11:47:02,409 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:48:02 IST)" (scheduled at 2025-04-24 11:47:02.398063+05:30)
+2025-04-24 11:47:07,943 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:48:02 IST)" executed successfully
+2025-04-24 11:48:02,404 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:49:02 IST)" (scheduled at 2025-04-24 11:48:02.398063+05:30)
+2025-04-24 11:48:08,225 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:49:02 IST)" executed successfully
+2025-04-24 11:54:19,705 - WARNING - Run time of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:55:02 IST)" was missed by 0:00:17.304925
+2025-04-24 11:55:02,409 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:56:02 IST)" (scheduled at 2025-04-24 11:55:02.398063+05:30)
+2025-04-24 11:55:02,636 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:56:02 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 26, in update_current_stage
+    all_stages = db.query(Stage).all()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[SQL: SELECT stages.stage_id AS stages_stage_id, stages.stage_name AS stages_stage_name, stages.cycle_id AS stages_cycle_id, stages.start_date_of_stage AS stages_start_date_of_stage, stages.end_date_of_stage AS stages_end_date_of_stage, stages.is_active AS stages_is_active, stages.is_completed AS stages_is_completed 
+FROM stages]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 11:56:02,422 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:57:02 IST)" (scheduled at 2025-04-24 11:56:02.398063+05:30)
+2025-04-24 11:56:11,533 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:57:02 IST)" executed successfully
+2025-04-24 11:57:02,411 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:58:02 IST)" (scheduled at 2025-04-24 11:57:02.398063+05:30)
+2025-04-24 11:57:10,457 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:58:02 IST)" executed successfully
+2025-04-24 11:58:02,420 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:59:02 IST)" (scheduled at 2025-04-24 11:58:02.398063+05:30)
+2025-04-24 11:58:10,409 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 11:59:02 IST)" executed successfully
+2025-04-24 11:58:18,498 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 11:58:22,036 - INFO - Fetched 1 cycle successfully.
+2025-04-24 11:58:22,461 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 11:58:25,914 - INFO - Fetched 1 cycle successfully.
+2025-04-24 11:59:02,413 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:00:02 IST)" (scheduled at 2025-04-24 11:59:02.398063+05:30)
+2025-04-24 11:59:08,388 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:00:02 IST)" executed successfully
+2025-04-24 11:59:24,418 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 11:59:25,569 - INFO - Fetched 1 cycle successfully.
+2025-04-24 11:59:25,852 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 11:59:27,057 - INFO - Fetched 1 cycle successfully.
+2025-04-24 11:59:58,760 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 11:59:58,760 - INFO - Received request to update appraisal cycle: End Check Of Update
+2025-04-24 12:00:02,405 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:01:02 IST)" (scheduled at 2025-04-24 12:00:02.398063+05:30)
+2025-04-24 12:00:04,550 - INFO - Cycle with ID 98 updated successfully.
+2025-04-24 12:00:07,912 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:01:02 IST)" executed successfully
+2025-04-24 12:01:02,414 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:02:02 IST)" (scheduled at 2025-04-24 12:01:02.398063+05:30)
+2025-04-24 12:01:07,798 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:02:02 IST)" executed successfully
+2025-04-24 12:01:11,175 - INFO - Incoming request to get /self-assessment-report endpoint by user.
+2025-04-24 12:01:11,749 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:01:32,017 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:01:33,180 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:01:33,467 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:01:40,382 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:02:02,415 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:03:02 IST)" (scheduled at 2025-04-24 12:02:02.398063+05:30)
+2025-04-24 12:02:04,112 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:02:05,254 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:02:05,538 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:02:06,679 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:02:07,617 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:03:02 IST)" executed successfully
+2025-04-24 12:03:02,404 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:04:02 IST)" (scheduled at 2025-04-24 12:03:02.398063+05:30)
+2025-04-24 12:03:07,805 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:04:02 IST)" executed successfully
+2025-04-24 12:04:02,399 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:05:02 IST)" (scheduled at 2025-04-24 12:04:02.398063+05:30)
+2025-04-24 12:04:08,986 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:05:02 IST)" executed successfully
+2025-04-24 12:04:32,796 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:04:34,012 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:04:34,279 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:04:35,909 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:05:02,401 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:06:02 IST)" (scheduled at 2025-04-24 12:05:02.398063+05:30)
+2025-04-24 12:05:08,631 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:06:02 IST)" executed successfully
+2025-04-24 12:06:02,404 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:07:02 IST)" (scheduled at 2025-04-24 12:06:02.398063+05:30)
+2025-04-24 12:06:07,544 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:07:02 IST)" executed successfully
+2025-04-24 12:07:02,404 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:08:02 IST)" (scheduled at 2025-04-24 12:07:02.398063+05:30)
+2025-04-24 12:07:08,115 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:08:02 IST)" executed successfully
+2025-04-24 12:08:02,398 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:09:02 IST)" (scheduled at 2025-04-24 12:08:02.398063+05:30)
+2025-04-24 12:08:07,471 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:09:02 IST)" executed successfully
+2025-04-24 12:09:02,410 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:10:02 IST)" (scheduled at 2025-04-24 12:09:02.398063+05:30)
+2025-04-24 12:09:07,501 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:10:02 IST)" executed successfully
+2025-04-24 12:10:02,405 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:11:02 IST)" (scheduled at 2025-04-24 12:10:02.398063+05:30)
+2025-04-24 12:10:08,052 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:11:02 IST)" executed successfully
+2025-04-24 12:11:02,404 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:12:02 IST)" (scheduled at 2025-04-24 12:11:02.398063+05:30)
+2025-04-24 12:11:08,669 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:12:02 IST)" executed successfully
+2025-04-24 12:11:28,726 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:11:29,818 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:11:30,121 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:11:31,459 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:12:02,408 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:13:02 IST)" (scheduled at 2025-04-24 12:12:02.398063+05:30)
+2025-04-24 12:12:08,183 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:13:02 IST)" executed successfully
+2025-04-24 12:13:02,413 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:14:02 IST)" (scheduled at 2025-04-24 12:13:02.398063+05:30)
+2025-04-24 12:13:09,238 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:14:02 IST)" executed successfully
+2025-04-24 12:14:02,413 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:15:02 IST)" (scheduled at 2025-04-24 12:14:02.398063+05:30)
+2025-04-24 12:14:10,099 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:15:02 IST)" executed successfully
+2025-04-24 12:15:02,406 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:16:02 IST)" (scheduled at 2025-04-24 12:15:02.398063+05:30)
+2025-04-24 12:15:10,577 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:16:02 IST)" executed successfully
+2025-04-24 12:16:02,406 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:17:02 IST)" (scheduled at 2025-04-24 12:16:02.398063+05:30)
+2025-04-24 12:16:14,401 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:17:02 IST)" executed successfully
+2025-04-24 12:17:02,415 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:18:02 IST)" (scheduled at 2025-04-24 12:17:02.398063+05:30)
+2025-04-24 12:17:11,494 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:18:02 IST)" executed successfully
+2025-04-24 12:18:02,410 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:19:02 IST)" (scheduled at 2025-04-24 12:18:02.398063+05:30)
+2025-04-24 12:18:38,394 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:19:02 IST)" executed successfully
+2025-04-24 12:19:02,411 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:20:02 IST)" (scheduled at 2025-04-24 12:19:02.398063+05:30)
+2025-04-24 12:19:55,975 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:20:02 IST)" executed successfully
+2025-04-24 12:20:02,415 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:21:02 IST)" (scheduled at 2025-04-24 12:20:02.398063+05:30)
+2025-04-24 12:21:02,409 - WARNING - Execution of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:21:02 IST)" skipped: maximum number of running instances reached (1)
+2025-04-24 12:21:13,695 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:22:02 IST)" executed successfully
+2025-04-24 12:22:02,403 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:23:02 IST)" (scheduled at 2025-04-24 12:22:02.398063+05:30)
+2025-04-24 12:22:39,555 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:23:02 IST)" executed successfully
+2025-04-24 12:23:02,399 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:24:02 IST)" (scheduled at 2025-04-24 12:23:02.398063+05:30)
+2025-04-24 12:23:19,229 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:24:02 IST)" executed successfully
+2025-04-24 12:23:59,119 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:24:00,273 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:24:00,597 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:24:01,703 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:24:02,409 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:25:02 IST)" (scheduled at 2025-04-24 12:24:02.398063+05:30)
+2025-04-24 12:24:08,826 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:25:02 IST)" executed successfully
+2025-04-24 12:24:55,337 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:24:55,337 - INFO - Received request to update appraisal cycle: 1
+2025-04-24 12:25:02,404 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:26:02 IST)" (scheduled at 2025-04-24 12:25:02.398063+05:30)
+2025-04-24 12:25:02,646 - INFO - Cycle with ID 99 updated successfully.
+2025-04-24 12:25:10,167 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:26:02 IST)" executed successfully
+2025-04-24 12:26:02,403 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:27:02 IST)" (scheduled at 2025-04-24 12:26:02.398063+05:30)
+2025-04-24 12:26:11,206 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:27:02 IST)" executed successfully
+2025-04-24 12:27:02,402 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:28:02 IST)" (scheduled at 2025-04-24 12:27:02.398063+05:30)
+2025-04-24 12:27:10,734 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:28:02 IST)" executed successfully
+2025-04-24 12:28:02,401 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:29:02 IST)" (scheduled at 2025-04-24 12:28:02.398063+05:30)
+2025-04-24 12:28:15,050 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:29:02 IST)" executed successfully
+2025-04-24 12:29:02,404 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:30:02 IST)" (scheduled at 2025-04-24 12:29:02.398063+05:30)
+2025-04-24 12:29:14,147 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:30:02 IST)" executed successfully
+2025-04-24 12:30:02,403 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:31:02 IST)" (scheduled at 2025-04-24 12:30:02.398063+05:30)
+2025-04-24 12:30:39,348 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:31:02 IST)" executed successfully
+2025-04-24 12:31:02,405 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:32:02 IST)" (scheduled at 2025-04-24 12:31:02.398063+05:30)
+2025-04-24 12:31:10,749 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:32:02 IST)" executed successfully
+2025-04-24 12:32:02,402 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:33:02 IST)" (scheduled at 2025-04-24 12:32:02.398063+05:30)
+2025-04-24 12:32:24,383 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:33:02 IST)" executed successfully
+2025-04-24 12:32:25,031 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:32:26,521 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:32:26,803 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:32:29,764 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:32:50,234 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:32:52,799 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:32:53,074 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:32:54,494 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:33:02,411 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:34:02 IST)" (scheduled at 2025-04-24 12:33:02.398063+05:30)
+2025-04-24 12:33:17,087 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:34:02 IST)" executed successfully
+2025-04-24 12:33:56,636 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:34:00,093 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:34:02,406 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:35:02 IST)" (scheduled at 2025-04-24 12:34:02.398063+05:30)
+2025-04-24 12:35:02,415 - WARNING - Execution of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:35:02 IST)" skipped: maximum number of running instances reached (1)
+2025-04-24 12:36:02,410 - WARNING - Execution of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:36:02 IST)" skipped: maximum number of running instances reached (1)
+2025-04-24 12:37:02,407 - WARNING - Execution of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:37:02 IST)" skipped: maximum number of running instances reached (1)
+2025-04-24 12:37:25,704 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:38:02 IST)" executed successfully
+2025-04-24 12:38:02,400 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:39:02 IST)" (scheduled at 2025-04-24 12:38:02.398063+05:30)
+2025-04-24 12:38:13,737 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:39:02 IST)" executed successfully
+2025-04-24 12:39:02,421 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:40:02 IST)" (scheduled at 2025-04-24 12:39:02.398063+05:30)
+2025-04-24 12:39:23,390 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:40:02 IST)" executed successfully
+2025-04-24 12:40:02,410 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:41:02 IST)" (scheduled at 2025-04-24 12:40:02.398063+05:30)
+2025-04-24 12:40:12,366 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:41:02 IST)" executed successfully
+2025-04-24 12:41:02,416 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:42:02 IST)" (scheduled at 2025-04-24 12:41:02.398063+05:30)
+2025-04-24 12:41:06,474 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:41:07,924 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:41:08,205 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:41:09,525 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:41:13,846 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:42:02 IST)" executed successfully
+2025-04-24 12:41:25,748 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:41:26,970 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:41:27,284 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:41:28,656 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:42:02,408 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:43:02 IST)" (scheduled at 2025-04-24 12:42:02.398063+05:30)
+2025-04-24 12:42:10,887 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:43:02 IST)" executed successfully
+2025-04-24 12:43:02,401 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:44:02 IST)" (scheduled at 2025-04-24 12:43:02.398063+05:30)
+2025-04-24 12:43:10,114 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:44:02 IST)" executed successfully
+2025-04-24 12:44:02,404 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:45:02 IST)" (scheduled at 2025-04-24 12:44:02.398063+05:30)
+2025-04-24 12:44:08,828 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:45:02 IST)" executed successfully
+2025-04-24 12:44:47,396 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:44:48,527 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:44:48,820 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:44:49,929 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:45:02,400 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:46:02 IST)" (scheduled at 2025-04-24 12:45:02.398063+05:30)
+2025-04-24 12:45:08,693 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:46:02 IST)" executed successfully
+2025-04-24 12:46:02,412 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:47:02 IST)" (scheduled at 2025-04-24 12:46:02.398063+05:30)
+2025-04-24 12:46:08,175 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:47:02 IST)" executed successfully
+2025-04-24 12:46:15,934 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:46:15,934 - INFO - Received request to update appraisal cycle: 1
+2025-04-24 12:46:21,696 - INFO - Cycle with ID 100 updated successfully.
+2025-04-24 12:47:02,412 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:48:02 IST)" (scheduled at 2025-04-24 12:47:02.398063+05:30)
+2025-04-24 12:47:10,246 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:48:02 IST)" executed successfully
+2025-04-24 12:48:02,402 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:49:02 IST)" (scheduled at 2025-04-24 12:48:02.398063+05:30)
+2025-04-24 12:48:10,084 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:49:02 IST)" executed successfully
+2025-04-24 12:48:58,355 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:48:59,495 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:48:59,770 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 12:49:00,926 - INFO - Fetched 1 cycle successfully.
+2025-04-24 12:49:02,404 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:50:02 IST)" (scheduled at 2025-04-24 12:49:02.398063+05:30)
+2025-04-24 12:49:08,472 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:50:02 IST)" executed successfully
+2025-04-24 12:50:02,402 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:51:02 IST)" (scheduled at 2025-04-24 12:50:02.398063+05:30)
+2025-04-24 12:50:08,378 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:51:02 IST)" executed successfully
+2025-04-24 12:51:02,403 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:52:02 IST)" (scheduled at 2025-04-24 12:51:02.398063+05:30)
+2025-04-24 12:51:08,214 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 12:52:02 IST)" executed successfully
+2025-04-24 13:26:28,562 - WARNING - Run time of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:27:02 IST)" was missed by 0:00:26.162747
+2025-04-24 13:27:02,368 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 13:27:02,413 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:28:02 IST)" (scheduled at 2025-04-24 13:27:02.398063+05:30)
+2025-04-24 13:27:02,452 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:28:02 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 718, in checkout
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 716, in checkout
+    dbapi_connection = rec.get_connection()
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 867, in get_connection
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 26, in update_current_stage
+    all_stages = db.query(Stage).all()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2241, in _execute_internal
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2110, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 718, in checkout
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 716, in checkout
+    dbapi_connection = rec.get_connection()
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 867, in get_connection
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 13:27:02,568 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 13:27:30,695 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 13:27:33,864 - INFO - Fetched 1 cycle successfully.
+2025-04-24 13:27:59,027 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 13:27:59,027 - INFO - Received request to update appraisal cycle: 1
+2025-04-24 13:28:02,401 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:29:02 IST)" (scheduled at 2025-04-24 13:28:02.398063+05:30)
+2025-04-24 13:28:08,149 - INFO - Cycle with ID 100 updated successfully.
+2025-04-24 13:28:09,864 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:29:02 IST)" executed successfully
+2025-04-24 13:29:02,402 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:30:02 IST)" (scheduled at 2025-04-24 13:29:02.398063+05:30)
+2025-04-24 13:29:07,978 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:30:02 IST)" executed successfully
+2025-04-24 13:30:02,410 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:31:02 IST)" (scheduled at 2025-04-24 13:30:02.398063+05:30)
+2025-04-24 13:30:07,555 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:31:02 IST)" executed successfully
+2025-04-24 13:31:02,400 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:32:02 IST)" (scheduled at 2025-04-24 13:31:02.398063+05:30)
+2025-04-24 13:31:07,530 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:32:02 IST)" executed successfully
+2025-04-24 13:32:02,400 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:33:02 IST)" (scheduled at 2025-04-24 13:32:02.398063+05:30)
+2025-04-24 13:32:07,547 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:33:02 IST)" executed successfully
+2025-04-24 13:32:26,093 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 13:32:27,184 - INFO - Fetched 1 cycle successfully.
+2025-04-24 13:32:27,453 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 13:32:28,469 - INFO - Fetched 1 cycle successfully.
+2025-04-24 13:32:32,182 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 13:32:32,182 - INFO - Received request to update appraisal cycle: 1
+2025-04-24 13:32:37,429 - INFO - Cycle with ID 100 updated successfully.
+2025-04-24 13:33:02,403 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:34:02 IST)" (scheduled at 2025-04-24 13:33:02.398063+05:30)
+2025-04-24 13:33:22,414 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:34:02 IST)" executed successfully
+2025-04-24 13:34:02,403 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:35:02 IST)" (scheduled at 2025-04-24 13:34:02.398063+05:30)
+2025-04-24 13:34:08,965 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:35:02 IST)" executed successfully
+2025-04-24 13:35:02,413 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:36:02 IST)" (scheduled at 2025-04-24 13:35:02.398063+05:30)
+2025-04-24 13:35:08,196 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:36:02 IST)" executed successfully
+2025-04-24 13:35:14,556 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 13:35:15,627 - INFO - Fetched 1 cycle successfully.
+2025-04-24 13:35:15,916 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 13:35:17,673 - INFO - Fetched 1 cycle successfully.
+2025-04-24 13:35:54,609 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 13:35:54,609 - INFO - Received request to update appraisal cycle: 1
+2025-04-24 13:35:59,739 - INFO - Cycle with ID 100 updated successfully.
+2025-04-24 13:36:02,411 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:37:02 IST)" (scheduled at 2025-04-24 13:36:02.398063+05:30)
+2025-04-24 13:36:08,238 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:37:02 IST)" executed successfully
+2025-04-24 13:37:02,404 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:38:02 IST)" (scheduled at 2025-04-24 13:37:02.398063+05:30)
+2025-04-24 13:37:02,427 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:38:02 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 26, in update_current_stage
+    all_stages = db.query(Stage).all()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[SQL: SELECT stages.stage_id AS stages_stage_id, stages.stage_name AS stages_stage_name, stages.cycle_id AS stages_cycle_id, stages.start_date_of_stage AS stages_start_date_of_stage, stages.end_date_of_stage AS stages_end_date_of_stage, stages.is_active AS stages_is_active, stages.is_completed AS stages_is_completed 
+FROM stages]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 13:38:02,401 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:39:02 IST)" (scheduled at 2025-04-24 13:38:02.398063+05:30)
+2025-04-24 13:38:12,517 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:39:02 IST)" executed successfully
+2025-04-24 13:38:53,027 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 13:38:53,027 - INFO - Received request to update appraisal cycle: 1
+2025-04-24 13:39:02,407 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:40:02 IST)" (scheduled at 2025-04-24 13:39:02.398063+05:30)
+2025-04-24 13:39:04,173 - INFO - Cycle with ID 100 updated successfully.
+2025-04-24 13:39:12,268 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:40:02 IST)" executed successfully
+2025-04-24 13:40:02,411 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:41:02 IST)" (scheduled at 2025-04-24 13:40:02.398063+05:30)
+2025-04-24 13:40:02,417 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:41:02 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 718, in checkout
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 716, in checkout
+    dbapi_connection = rec.get_connection()
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 867, in get_connection
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 26, in update_current_stage
+    all_stages = db.query(Stage).all()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2241, in _execute_internal
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2110, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 718, in checkout
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 716, in checkout
+    dbapi_connection = rec.get_connection()
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 867, in get_connection
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 13:41:02,401 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:42:02 IST)" (scheduled at 2025-04-24 13:41:02.398063+05:30)
+2025-04-24 13:41:02,406 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:42:02 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 718, in checkout
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 716, in checkout
+    dbapi_connection = rec.get_connection()
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 838, in get_connection
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 26, in update_current_stage
+    all_stages = db.query(Stage).all()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2241, in _execute_internal
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2110, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 718, in checkout
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 716, in checkout
+    dbapi_connection = rec.get_connection()
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 838, in get_connection
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 13:42:02,422 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:43:02 IST)" (scheduled at 2025-04-24 13:42:02.398063+05:30)
+2025-04-24 13:42:02,482 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:43:02 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 718, in checkout
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 716, in checkout
+    dbapi_connection = rec.get_connection()
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 838, in get_connection
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 26, in update_current_stage
+    all_stages = db.query(Stage).all()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2241, in _execute_internal
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2110, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 718, in checkout
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 716, in checkout
+    dbapi_connection = rec.get_connection()
+                       ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 838, in get_connection
+    self.__connect()
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    with util.safe_reraise():
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 897, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "switchyard.proxy.rlwy.net" to address: No such host is known. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 13:43:02,399 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:44:02 IST)" (scheduled at 2025-04-24 13:43:02.398063+05:30)
+2025-04-24 13:43:10,343 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:44:02 IST)" executed successfully
+2025-04-24 13:44:31,771 - WARNING - Run time of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:45:02 IST)" was missed by 0:00:29.372966
+2025-04-24 13:45:02,406 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:46:02 IST)" (scheduled at 2025-04-24 13:45:02.398063+05:30)
+2025-04-24 13:45:26,351 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:46:02 IST)" raised an exception
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\services\stage.py", line 54, in update_current_stage
+    ).order_by(Stage.start_date_of_stage.asc()).all()
+                                                ^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "D:\Employee_Appraisal_01_04\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[SQL: SELECT stages.stage_id AS stages_stage_id, stages.stage_name AS stages_stage_name, stages.cycle_id AS stages_cycle_id, stages.start_date_of_stage AS stages_start_date_of_stage, stages.end_date_of_stage AS stages_end_date_of_stage, stages.is_active AS stages_is_active, stages.is_completed AS stages_is_completed 
+FROM stages 
+WHERE stages.cycle_id = %(cycle_id_1)s AND stages.start_date_of_stage <= %(start_date_of_stage_1)s AND stages.end_date_of_stage >= %(end_date_of_stage_1)s ORDER BY stages.start_date_of_stage ASC]
+[parameters: {'cycle_id_1': 96, 'start_date_of_stage_1': datetime.date(2025, 4, 24), 'end_date_of_stage_1': datetime.date(2025, 4, 24)}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-24 13:47:53,860 - WARNING - Run time of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:48:02 IST)" was missed by 0:00:51.457668
+2025-04-24 13:48:02,410 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:49:02 IST)" (scheduled at 2025-04-24 13:48:02.398063+05:30)
+2025-04-24 13:48:14,476 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:49:02 IST)" executed successfully
+2025-04-24 13:49:02,411 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:50:02 IST)" (scheduled at 2025-04-24 13:49:02.398063+05:30)
+2025-04-24 13:49:11,736 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:50:02 IST)" executed successfully
+2025-04-24 13:50:02,405 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:51:02 IST)" (scheduled at 2025-04-24 13:50:02.398063+05:30)
+2025-04-24 13:50:10,990 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:51:02 IST)" executed successfully
+2025-04-24 13:51:02,407 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:52:02 IST)" (scheduled at 2025-04-24 13:51:02.398063+05:30)
+2025-04-24 13:51:11,223 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:52:02 IST)" executed successfully
+2025-04-24 13:52:02,400 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:53:02 IST)" (scheduled at 2025-04-24 13:52:02.398063+05:30)
+2025-04-24 13:52:11,515 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:53:02 IST)" executed successfully
+2025-04-24 13:52:25,258 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 13:52:27,013 - INFO - Fetched 1 cycle successfully.
+2025-04-24 13:52:27,442 - INFO - Incoming request to /edit-appraisal-cycle endpoint by user.
+2025-04-24 13:52:29,255 - INFO - Fetched 1 cycle successfully.
+2025-04-24 13:53:02,413 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:54:02 IST)" (scheduled at 2025-04-24 13:53:02.398063+05:30)
+2025-04-24 13:53:11,444 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:54:02 IST)" executed successfully
+2025-04-24 13:53:53,494 - INFO - Incoming request to get /self-assessment-report endpoint by user.
+2025-04-24 13:53:54,379 - INFO - Fetched 1 cycle successfully.
+2025-04-24 13:54:02,401 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:55:02 IST)" (scheduled at 2025-04-24 13:54:02.398063+05:30)
+2025-04-24 13:54:11,523 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:55:02 IST)" executed successfully
+2025-04-24 13:55:02,403 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:56:02 IST)" (scheduled at 2025-04-24 13:55:02.398063+05:30)
+2025-04-24 13:55:11,993 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:56:02 IST)" executed successfully
+2025-04-24 13:56:02,401 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:57:02 IST)" (scheduled at 2025-04-24 13:56:02.398063+05:30)
+2025-04-24 13:56:11,722 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-04-24 13:57:02 IST)" executed successfully

@@ -43,4 +43,3 @@ def view_responses(employee_id: int, cycle_id: int, db: Session = Depends(get_db
     if not responses:
         raise HTTPException(status_code=404, detail="No responses found.")
     return responses
-
