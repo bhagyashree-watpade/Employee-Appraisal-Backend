@@ -59,18 +59,21 @@ def save_lead_assessment_rating(db: Session, cycle_id: int, employee_id: int, ra
             # If discussion_date is already a date object
             parsed_discussion_date = discussion_date
             
-        # Get the stage end date and ensure it's a date object
+        # Get the stage start and end date and ensure it's a date object
         stage_end_date = lead_assessment_stage.end_date_of_stage
+        stage_start_date = lead_assessment_stage.start_date_of_stage
         
         # Debug 
         # print(f"Discussion date: {parsed_discussion_date}, type: {type(parsed_discussion_date)}")
         # print(f"Stage end date: {stage_end_date}, type: {type(stage_end_date)}")
         
-      
-        if parsed_discussion_date > stage_end_date:
+        if(not(stage_start_date <= parsed_discussion_date <= stage_end_date)):
+            
+            # If the discussion date is not within the stage dates, raise an error
             formatted_discussion = parsed_discussion_date.strftime('%d-%m-%Y')
             formatted_end_date = stage_end_date.strftime('%d-%m-%Y')
-            error_msg = f"Discussion date ({formatted_discussion}) must be on or before the Lead Assessment stage end date ({formatted_end_date})."
+            formatted_start_date = stage_start_date.strftime('%d-%m-%Y')
+            error_msg = f"Discussion date ({formatted_discussion}) must be within the Lead Assessment stage start date ({formatted_start_date}) and end date ({formatted_end_date})."
             print(f"ERROR: {error_msg}")
             db.rollback()
             raise ValueError(error_msg)
