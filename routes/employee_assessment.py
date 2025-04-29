@@ -10,15 +10,24 @@ from services.employee_assessment import (
     save_self_assessment_responses,
     get_readonly_responses
 )
+from dao.employee_assessment import get_team_lead_cycles
 
 router = APIRouter(prefix="/assessment", tags=["Self Assessment"])
 
-# Fetch the active and completed cycles for which employee is allocated
+# Fetch the active(for which self assessment stage is either active or completed) and completed cycles for which employee is allocated
 @router.get("/cycles/{employee_id}")
 def fetch_employee_cycles(employee_id: int, db: Session = Depends(get_db)):
     cycles = get_employee_cycles(db, employee_id)
     if not cycles:
         raise HTTPException(status_code=404, detail="No appraisal cycles found for employee.")
+    return cycles
+
+# Fetch the active (for which self assessment stage is either active or completed)  and completed cycles  for which either the team lead or one of the employee under him is allocated 
+@router.get("/teamlead/cycles/{team_lead_id}")
+def fetch_team_lead_cycles(team_lead_id: int, db: Session = Depends(get_db)):
+    cycles = get_team_lead_cycles(db, team_lead_id)
+    if not cycles:
+        raise HTTPException(status_code=404, detail="No appraisal cycles found for team lead.")
     return cycles
 
 # Fetch questions assigned to the employee for active and completed cycles
