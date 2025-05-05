@@ -5,7 +5,7 @@ from models.parameters import Parameter
 from schema.appraisal_cycle_pydantic import AppraisalCycleCreate, AppraisalCycleResponse, StageResponse, AppraisalCycleResponseWithStages
 from collections import defaultdict
 from fastapi import HTTPException
-
+from sqlalchemy import or_, and_
 def create_cycle(db: Session, cycle_data: AppraisalCycleCreate):
     new_cycle = AppraisalCycle(
         cycle_name=cycle_data.cycle_name,
@@ -95,3 +95,37 @@ def delete_cycle(db: Session, cycle_id: int):
 def get_completed_appraisal_cycles(db: Session):
     return db.query(AppraisalCycle).filter(AppraisalCycle.status != "inactive").all()
 
+
+def get_completed_and_lead_assessment_active_cycles(db: Session):
+    return db.query(AppraisalCycle).join(Stage, AppraisalCycle.cycle_id == Stage.cycle_id)\
+        .filter(
+            or_(
+                AppraisalCycle.status == "completed",
+                and_(
+                    AppraisalCycle.status == "active",
+                    Stage.stage_name == "Lead Assessment",
+                    or_(
+                        Stage.is_active == True,
+                        Stage.is_completed == True
+                    )
+                )
+            )
+        ).distinct().all()
+
+#get all cycles which are completed and active cycles for which self assessment stage is active or completed (for self assessment report)
+
+def get_completed_and_self_assessment_active_cycles(db: Session):
+    return db.query(AppraisalCycle).join(Stage, AppraisalCycle.cycle_id==Stage.cycle_id)\
+        .filter(
+            or_(
+                AppraisalCycle.status == "completed",
+                and_(
+                    AppraisalCycle.status == "active",
+                        Stage.stage_name == "Self Assessment",
+                        or_(
+                            Stage.is_active == True,
+                            Stage.is_completed == True
+                        )
+                )
+            )
+    ).distinct().all()

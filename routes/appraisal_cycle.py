@@ -1,7 +1,7 @@
 
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from services.appraisal_cycle import add_new_cycle, fetch_all_cycles, fetch_cycle_by_id, fetch_all_cycles_with_stages, delete_appraisal_cycle, get_completed_cycles
+from services.appraisal_cycle import add_new_cycle, fetch_all_cycles, fetch_cycle_by_id, fetch_all_cycles_with_stages, delete_appraisal_cycle, get_completed_cycles, get_filtered_cycles
 from schema.appraisal_cycle_pydantic import AppraisalCycleCreate, AppraisalCycleResponse, AppraisalCycleResponseWithStages
 from database.connection import get_db
 from models.appraisal_cycle import AppraisalCycle  # Import your AppraisalCycle model
@@ -50,7 +50,12 @@ def get_appraisal_cycle_status(cycle_id: int, db: Session = Depends(get_db)):
 
 
 #historical report
-
-@router.get("/appraisal-cycles/completed", response_model=list[AppraisalCycleResponse])
-def get_completed_all_cycles(db: Session = Depends(get_db)):
+#get completed and  active cycles for which lead assessment stage is active or completed 
+@router.get("/appraisal-cycles/historic-report", response_model=list[AppraisalCycleResponse])
+def get_cycles_for_historic_report(db: Session = Depends(get_db)):
     return get_completed_cycles(db)
+
+#get completed and  active cycles for which self assessment stage is active or completed 
+@router.get("/appraisal-cycles/self-assessment-report", response_model=list[AppraisalCycleResponse])
+def get_cycles_for_self_assessment_report(db: Session = Depends(get_db)):
+    return get_filtered_cycles(db)
