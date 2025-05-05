@@ -1,6 +1,7 @@
 from sqlalchemy.orm import Session
 from models.appraisal_cycle import AppraisalCycle
 from models.stages import Stage
+from models.parameters import Parameter
 from schema.appraisal_cycle_pydantic import AppraisalCycleCreate, AppraisalCycleResponse, StageResponse, AppraisalCycleResponseWithStages
 from collections import defaultdict
 from fastapi import HTTPException
@@ -83,6 +84,7 @@ def delete_cycle(db: Session, cycle_id: int):
         raise HTTPException(status_code=404, detail="Cycle not found")
     
     db.query(Stage).filter(Stage.cycle_id == cycle_id).delete()
+    db.query(Parameter).filter(Parameter.cycle_id == cycle_id).delete()
 
     db.delete(cycle)
     db.commit()

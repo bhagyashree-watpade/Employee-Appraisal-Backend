@@ -1,13 +1,15 @@
 from pydantic import BaseModel
-from typing import List
+from typing import List, Optional
 
 class Stage(BaseModel):
     name: str
+    stage_id: Optional[int] = None
     startDate: str
     endDate: str
 
 class Parameter(BaseModel):
     name: str
+    parameter_id: Optional[int] = None
     helptext: str
     employee: bool
     teamLead: bool
