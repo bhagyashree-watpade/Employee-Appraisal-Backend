@@ -23,16 +23,12 @@ def get_allocated_cycles(db: Session, employee_id: int):
             and_(
                 AppraisalCycle.status == "active", 
                 Stage.stage_name == "Self Assessment"  ,
-                Stage.is_active == True,    
-                Stage.is_completed == False 
-            ),
-            and_(
-                AppraisalCycle.status == "active",   
-                Stage.stage_name == "Self Assessment",
-                Stage.is_active == False,   
-                Stage.is_completed == True 
+                or_(
+                    Stage.is_active == True,
+                    Stage.is_completed == True
+                )
             )
-            )
+        )
     ).all()
 
 
