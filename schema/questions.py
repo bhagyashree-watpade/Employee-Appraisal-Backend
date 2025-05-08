@@ -15,3 +15,13 @@ class QuestionSchema(BaseModel):
 class QuestionResponseSchema(QuestionSchema):
   question_id: int
   options: List[OptionSchema]
+  
+  class Config:
+    orm_mode = True
+  
+class QuestionsSchema(BaseModel):
+  question_id: int
+  question_text: str  
+
+  class Config:
+    orm_mode = True
