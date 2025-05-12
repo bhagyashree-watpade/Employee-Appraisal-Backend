@@ -12,7 +12,11 @@ router = APIRouter(prefix="/appraisal_cycle", tags=["Appraisal Cycle"])
 @router.post("/", response_model=AppraisalCycleResponse)
 def create_cycle(cycle_data: AppraisalCycleCreate, db: Session = Depends(get_db)):
     if cycle_data.status not in ["active", "inactive"]:
-        raise HTTPException(status_code=400, detail="Invalid status. Allowed values: 'active', 'inactive'")
+        raise HTTPException(status_code=422, detail="Invalid status. Allowed values: 'active', 'inactive'")
+    
+    if cycle_data.end_date_of_cycle < cycle_data.start_date_of_cycle:
+        raise HTTPException(status_code=400, detail="End date cannot be before start date.")
+    
     return add_new_cycle(db, cycle_data)
 
 # Get all cycles
@@ -38,6 +42,7 @@ def get_cycle(cycle_id: int, db: Session = Depends(get_db)):
 def delete_cycle(cycle_id: int, db: Session = Depends(get_db)):
     return delete_appraisal_cycle(db,cycle_id)
 
+# Get status of appraisal cycles
 @router.get("/status/{cycle_id}")
 def get_appraisal_cycle_status(cycle_id: int, db: Session = Depends(get_db)):
     """Fetch the status of an appraisal cycle by cycle_id."""

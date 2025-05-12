@@ -83,6 +83,10 @@ def delete_cycle(db: Session, cycle_id: int):
     if not cycle:
         raise HTTPException(status_code=404, detail="Cycle not found")
     
+    # Prevent deletion if the status is 'active' or 'completed'
+    if cycle.status in ['active', 'completed']:
+        raise HTTPException(status_code=400, detail="Cannot delete an active or completed cycle.")
+    
     db.query(Stage).filter(Stage.cycle_id == cycle_id).delete()
     db.query(Parameter).filter(Parameter.cycle_id == cycle_id).delete()
 
