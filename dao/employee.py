@@ -40,20 +40,19 @@ def get_reporting_manager(db: Session, employee_id: int) -> Optional[str]:
 
 
 def get_employee_details(db: Session, employee_id: int):
-    """Fetch employee details along with reporting manager's name"""
     employee = db.query(Employee).filter(Employee.employee_id == employee_id).first()
     
     if not employee:
         return None  # Employee not found
     
     # Fetch reporting manager details if exists
-    reporting_manager = db.query(Employee).filter(Employee.employee_id == employee.reporting_manager).first()
+    # reporting_manager = db.query(Employee).filter(Employee.employee_id == employee.reporting_manager).first()
 
     return {
-        "employee_id": employee.employee_id,
-        "employee_name": employee.employee_name,
-        "role": employee.role,
-        "reporting_manager": reporting_manager.employee_name if reporting_manager else None
+        # "employee_id": employee.employee_id,
+        # "employee_name": employee.employee_name,
+        "role": employee.role
+        # "reporting_manager": reporting_manager.employee_name if reporting_manager else None
     }
 
 

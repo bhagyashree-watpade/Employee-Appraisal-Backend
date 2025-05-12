@@ -9,6 +9,7 @@ from dao.questions import get_all_questions, add_new_question, add_options, get_
 import logging
 from logger_config import logging
 
+
 router = APIRouter(tags=["Questions"])
 
 @router.get("/question", response_model=List[QuestionsSchema])

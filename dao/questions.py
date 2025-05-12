@@ -8,6 +8,7 @@ from logger_config import logging
 
 
 def get_all_questions(db: Session) -> List[Question]:
+<<<<<<< HEAD
     """
     Fetch all questions from the database
     
@@ -45,7 +46,17 @@ def get_all_questions_with_option(db: Session) -> List[Question]:
     except SQLAlchemyError as e:
         logging.error(f"Error fetching questions with options: {str(e)}")
         raise
+=======
+    #Fetch all questions from the database
+    # print("All questions fetched", db.query(Question).all())
+    # return db.query(Question).all()
+    return db.query(Question.question_id, Question.question_text).all()
+>>>>>>> main
 
+
+def get_all_questions_with_option(db: Session) -> List[Question]:
+    #Fetch all questions with their options from the database
+   return db.query(Question).options(selectinload(Question.options)).all()
 
 def add_new_question(question_data: QuestionSchema, db: Session) -> Question:
     """
