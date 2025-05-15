@@ -9767,3 +9767,359 @@ FROM stages]
 2025-05-15 15:21:07,288 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
 2025-05-15 15:21:07,291 - INFO - Added job "start_scheduler.<locals>.update_stage_job" to job store "default"
 2025-05-15 15:21:07,291 - INFO - Scheduler started
+2025-05-15 15:22:07,298 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:22:07 IST)" (scheduled at 2025-05-15 15:22:07.288732+05:30)
+2025-05-15 15:22:17,375 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:23:07 IST)" executed successfully
+2025-05-15 15:23:07,292 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:24:07 IST)" (scheduled at 2025-05-15 15:23:07.288732+05:30)
+2025-05-15 15:23:13,688 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:24:07 IST)" executed successfully
+2025-05-15 15:24:07,293 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:25:07 IST)" (scheduled at 2025-05-15 15:24:07.288732+05:30)
+2025-05-15 15:24:13,339 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:25:07 IST)" executed successfully
+2025-05-15 15:25:07,294 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:26:07 IST)" (scheduled at 2025-05-15 15:25:07.288732+05:30)
+2025-05-15 15:25:13,454 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:26:07 IST)" executed successfully
+2025-05-15 15:26:07,302 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:27:07 IST)" (scheduled at 2025-05-15 15:26:07.288732+05:30)
+2025-05-15 15:26:13,253 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:27:07 IST)" executed successfully
+2025-05-15 15:27:07,297 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:28:07 IST)" (scheduled at 2025-05-15 15:27:07.288732+05:30)
+2025-05-15 15:27:13,178 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:28:07 IST)" executed successfully
+2025-05-15 15:28:07,292 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:29:07 IST)" (scheduled at 2025-05-15 15:28:07.288732+05:30)
+2025-05-15 15:28:13,036 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:29:07 IST)" executed successfully
+2025-05-15 15:29:07,291 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:30:07 IST)" (scheduled at 2025-05-15 15:29:07.288732+05:30)
+2025-05-15 15:29:13,158 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:30:07 IST)" executed successfully
+2025-05-15 15:30:07,298 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:31:07 IST)" (scheduled at 2025-05-15 15:30:07.288732+05:30)
+2025-05-15 15:30:13,066 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:31:07 IST)" executed successfully
+2025-05-15 15:31:07,298 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:32:07 IST)" (scheduled at 2025-05-15 15:31:07.288732+05:30)
+2025-05-15 15:31:13,066 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:32:07 IST)" executed successfully
+2025-05-15 15:32:07,294 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:33:07 IST)" (scheduled at 2025-05-15 15:32:07.288732+05:30)
+2025-05-15 15:32:13,192 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:33:07 IST)" executed successfully
+2025-05-15 15:33:07,292 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:34:07 IST)" (scheduled at 2025-05-15 15:33:07.288732+05:30)
+2025-05-15 15:33:13,277 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:34:07 IST)" executed successfully
+2025-05-15 15:34:07,298 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:35:07 IST)" (scheduled at 2025-05-15 15:34:07.288732+05:30)
+2025-05-15 15:34:13,383 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:35:07 IST)" executed successfully
+2025-05-15 15:35:07,302 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:36:07 IST)" (scheduled at 2025-05-15 15:35:07.288732+05:30)
+2025-05-15 15:35:13,761 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:36:07 IST)" executed successfully
+2025-05-15 15:36:07,304 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:37:07 IST)" (scheduled at 2025-05-15 15:36:07.288732+05:30)
+2025-05-15 15:36:14,625 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:37:07 IST)" executed successfully
+2025-05-15 15:37:07,303 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:38:07 IST)" (scheduled at 2025-05-15 15:37:07.288732+05:30)
+2025-05-15 15:37:14,052 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:38:07 IST)" executed successfully
+2025-05-15 15:37:46,323 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-15 15:37:46,325 - INFO - Added job "start_scheduler.<locals>.update_stage_job" to job store "default"
+2025-05-15 15:37:46,325 - INFO - Scheduler started
+2025-05-15 15:38:29,783 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-15 15:38:29,784 - INFO - Added job "start_scheduler.<locals>.update_stage_job" to job store "default"
+2025-05-15 15:38:29,784 - INFO - Scheduler started
+2025-05-15 15:39:29,791 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:39:29 IST)" (scheduled at 2025-05-15 15:39:29.783039+05:30)
+2025-05-15 15:39:40,085 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:40:29 IST)" executed successfully
+2025-05-15 15:40:29,798 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:41:29 IST)" (scheduled at 2025-05-15 15:40:29.783039+05:30)
+2025-05-15 15:40:36,489 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:41:29 IST)" executed successfully
+2025-05-15 15:41:29,791 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:42:29 IST)" (scheduled at 2025-05-15 15:41:29.783039+05:30)
+2025-05-15 15:41:36,150 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:42:29 IST)" executed successfully
+2025-05-15 15:42:29,796 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:43:29 IST)" (scheduled at 2025-05-15 15:42:29.783039+05:30)
+2025-05-15 15:42:36,230 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:43:29 IST)" executed successfully
+2025-05-15 15:43:29,790 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:44:29 IST)" (scheduled at 2025-05-15 15:43:29.783039+05:30)
+2025-05-15 15:43:36,455 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:44:29 IST)" executed successfully
+2025-05-15 15:44:29,791 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:45:29 IST)" (scheduled at 2025-05-15 15:44:29.783039+05:30)
+2025-05-15 15:44:36,325 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:45:29 IST)" executed successfully
+2025-05-15 15:45:29,787 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:46:29 IST)" (scheduled at 2025-05-15 15:45:29.783039+05:30)
+2025-05-15 15:45:36,527 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:46:29 IST)" executed successfully
+2025-05-15 15:46:29,785 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:47:29 IST)" (scheduled at 2025-05-15 15:46:29.783039+05:30)
+2025-05-15 15:46:36,458 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:47:29 IST)" executed successfully
+2025-05-15 15:47:29,798 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:48:29 IST)" (scheduled at 2025-05-15 15:47:29.783039+05:30)
+2025-05-15 15:47:36,397 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:48:29 IST)" executed successfully
+2025-05-15 15:48:29,785 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:49:29 IST)" (scheduled at 2025-05-15 15:48:29.783039+05:30)
+2025-05-15 15:48:36,336 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:49:29 IST)" executed successfully
+2025-05-15 15:49:29,796 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:50:29 IST)" (scheduled at 2025-05-15 15:49:29.783039+05:30)
+2025-05-15 15:49:36,422 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:50:29 IST)" executed successfully
+2025-05-15 15:50:29,795 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:51:29 IST)" (scheduled at 2025-05-15 15:50:29.783039+05:30)
+2025-05-15 15:50:36,491 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:51:29 IST)" executed successfully
+2025-05-15 15:51:29,786 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:52:29 IST)" (scheduled at 2025-05-15 15:51:29.783039+05:30)
+2025-05-15 15:51:36,411 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:52:29 IST)" executed successfully
+2025-05-15 15:52:29,794 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:53:29 IST)" (scheduled at 2025-05-15 15:52:29.783039+05:30)
+2025-05-15 15:52:36,814 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:53:29 IST)" executed successfully
+2025-05-15 15:53:29,794 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:54:29 IST)" (scheduled at 2025-05-15 15:53:29.783039+05:30)
+2025-05-15 15:53:36,418 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:54:29 IST)" executed successfully
+2025-05-15 15:54:29,798 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:55:29 IST)" (scheduled at 2025-05-15 15:54:29.783039+05:30)
+2025-05-15 15:54:36,786 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:55:29 IST)" executed successfully
+2025-05-15 15:55:29,797 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:56:29 IST)" (scheduled at 2025-05-15 15:55:29.783039+05:30)
+2025-05-15 15:55:37,128 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:56:29 IST)" executed successfully
+2025-05-15 15:56:29,796 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:57:29 IST)" (scheduled at 2025-05-15 15:56:29.783039+05:30)
+2025-05-15 15:56:36,904 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:57:29 IST)" executed successfully
+2025-05-15 15:57:30,911 - WARNING - Run time of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:58:29 IST)" was missed by 0:00:01.128600
+2025-05-15 15:58:29,798 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:59:29 IST)" (scheduled at 2025-05-15 15:58:29.783039+05:30)
+2025-05-15 15:58:36,628 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 15:59:29 IST)" executed successfully
+2025-05-15 15:59:30,786 - WARNING - Run time of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:00:29 IST)" was missed by 0:00:01.003073
+2025-05-15 16:00:30,799 - WARNING - Run time of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:01:29 IST)" was missed by 0:00:01.016562
+2025-05-15 16:01:29,790 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:02:29 IST)" (scheduled at 2025-05-15 16:01:29.783039+05:30)
+2025-05-15 16:01:36,725 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:02:29 IST)" executed successfully
+2025-05-15 16:02:29,787 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:03:29 IST)" (scheduled at 2025-05-15 16:02:29.783039+05:30)
+2025-05-15 16:02:36,284 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:03:29 IST)" executed successfully
+2025-05-15 16:03:29,786 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:04:29 IST)" (scheduled at 2025-05-15 16:03:29.783039+05:30)
+2025-05-15 16:03:36,134 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:04:29 IST)" executed successfully
+2025-05-15 16:04:29,792 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:05:29 IST)" (scheduled at 2025-05-15 16:04:29.783039+05:30)
+2025-05-15 16:04:36,550 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:05:29 IST)" executed successfully
+2025-05-15 16:05:29,786 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:06:29 IST)" (scheduled at 2025-05-15 16:05:29.783039+05:30)
+2025-05-15 16:05:36,513 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:06:29 IST)" executed successfully
+2025-05-15 16:06:29,788 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:07:29 IST)" (scheduled at 2025-05-15 16:06:29.783039+05:30)
+2025-05-15 16:06:36,359 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:07:29 IST)" executed successfully
+2025-05-15 16:07:29,788 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:08:29 IST)" (scheduled at 2025-05-15 16:07:29.783039+05:30)
+2025-05-15 16:07:36,322 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:08:29 IST)" executed successfully
+2025-05-15 16:08:29,784 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:09:29 IST)" (scheduled at 2025-05-15 16:08:29.783039+05:30)
+2025-05-15 16:08:36,292 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:09:29 IST)" executed successfully
+2025-05-15 16:09:29,793 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:10:29 IST)" (scheduled at 2025-05-15 16:09:29.783039+05:30)
+2025-05-15 16:09:36,279 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:10:29 IST)" executed successfully
+2025-05-15 16:10:29,788 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:11:29 IST)" (scheduled at 2025-05-15 16:10:29.783039+05:30)
+2025-05-15 16:10:36,611 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:11:29 IST)" executed successfully
+2025-05-15 16:11:29,791 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:12:29 IST)" (scheduled at 2025-05-15 16:11:29.783039+05:30)
+2025-05-15 16:11:36,268 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:12:29 IST)" executed successfully
+2025-05-15 16:12:29,793 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:13:29 IST)" (scheduled at 2025-05-15 16:12:29.783039+05:30)
+2025-05-15 16:12:36,277 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:13:29 IST)" executed successfully
+2025-05-15 16:13:29,796 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:14:29 IST)" (scheduled at 2025-05-15 16:13:29.783039+05:30)
+2025-05-15 16:13:36,317 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:14:29 IST)" executed successfully
+2025-05-15 16:14:29,789 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:15:29 IST)" (scheduled at 2025-05-15 16:14:29.783039+05:30)
+2025-05-15 16:14:36,330 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:15:29 IST)" executed successfully
+2025-05-15 16:15:29,784 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:16:29 IST)" (scheduled at 2025-05-15 16:15:29.783039+05:30)
+2025-05-15 16:15:36,331 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:16:29 IST)" executed successfully
+2025-05-15 16:16:29,788 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:17:29 IST)" (scheduled at 2025-05-15 16:16:29.783039+05:30)
+2025-05-15 16:16:37,098 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:17:29 IST)" executed successfully
+2025-05-15 16:17:29,796 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:18:29 IST)" (scheduled at 2025-05-15 16:17:29.783039+05:30)
+2025-05-15 16:17:36,783 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:18:29 IST)" executed successfully
+2025-05-15 16:18:29,784 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:19:29 IST)" (scheduled at 2025-05-15 16:18:29.783039+05:30)
+2025-05-15 16:18:36,743 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:19:29 IST)" executed successfully
+2025-05-15 16:19:29,797 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:20:29 IST)" (scheduled at 2025-05-15 16:19:29.783039+05:30)
+2025-05-15 16:19:36,760 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:20:29 IST)" executed successfully
+2025-05-15 16:20:29,799 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:21:29 IST)" (scheduled at 2025-05-15 16:20:29.783039+05:30)
+2025-05-15 16:20:36,785 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:21:29 IST)" executed successfully
+2025-05-15 16:21:29,790 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:22:29 IST)" (scheduled at 2025-05-15 16:21:29.783039+05:30)
+2025-05-15 16:21:36,746 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:22:29 IST)" executed successfully
+2025-05-15 16:22:29,790 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:23:29 IST)" (scheduled at 2025-05-15 16:22:29.783039+05:30)
+2025-05-15 16:22:37,675 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:23:29 IST)" executed successfully
+2025-05-15 16:23:29,793 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:24:29 IST)" (scheduled at 2025-05-15 16:23:29.783039+05:30)
+2025-05-15 16:23:37,058 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:24:29 IST)" executed successfully
+2025-05-15 16:24:29,794 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:25:29 IST)" (scheduled at 2025-05-15 16:24:29.783039+05:30)
+2025-05-15 16:24:37,006 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:25:29 IST)" executed successfully
+2025-05-15 16:25:29,795 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:26:29 IST)" (scheduled at 2025-05-15 16:25:29.783039+05:30)
+2025-05-15 16:25:37,649 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:26:29 IST)" executed successfully
+2025-05-15 16:26:29,798 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:27:29 IST)" (scheduled at 2025-05-15 16:26:29.783039+05:30)
+2025-05-15 16:26:38,031 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:27:29 IST)" executed successfully
+2025-05-15 16:27:29,788 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:28:29 IST)" (scheduled at 2025-05-15 16:27:29.783039+05:30)
+2025-05-15 16:27:37,116 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:28:29 IST)" executed successfully
+2025-05-15 16:28:29,794 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:29:29 IST)" (scheduled at 2025-05-15 16:28:29.783039+05:30)
+2025-05-15 16:28:36,924 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:29:29 IST)" executed successfully
+2025-05-15 16:29:29,796 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:30:29 IST)" (scheduled at 2025-05-15 16:29:29.783039+05:30)
+2025-05-15 16:29:36,801 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:30:29 IST)" executed successfully
+2025-05-15 16:30:29,795 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:31:29 IST)" (scheduled at 2025-05-15 16:30:29.783039+05:30)
+2025-05-15 16:30:36,936 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:31:29 IST)" executed successfully
+2025-05-15 16:31:29,802 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:32:29 IST)" (scheduled at 2025-05-15 16:31:29.783039+05:30)
+2025-05-15 16:31:36,940 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:32:29 IST)" executed successfully
+2025-05-15 16:32:29,788 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:33:29 IST)" (scheduled at 2025-05-15 16:32:29.783039+05:30)
+2025-05-15 16:32:37,174 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:33:29 IST)" executed successfully
+2025-05-15 16:33:29,785 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:34:29 IST)" (scheduled at 2025-05-15 16:33:29.783039+05:30)
+2025-05-15 16:33:38,380 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:34:29 IST)" executed successfully
+2025-05-15 16:34:29,785 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:35:29 IST)" (scheduled at 2025-05-15 16:34:29.783039+05:30)
+2025-05-15 16:34:38,501 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:35:29 IST)" executed successfully
+2025-05-15 16:35:29,787 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:36:29 IST)" (scheduled at 2025-05-15 16:35:29.783039+05:30)
+2025-05-15 16:35:36,552 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:36:29 IST)" executed successfully
+2025-05-15 16:36:29,784 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:37:29 IST)" (scheduled at 2025-05-15 16:36:29.783039+05:30)
+2025-05-15 16:36:36,916 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:37:29 IST)" executed successfully
+2025-05-15 16:37:29,784 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:38:29 IST)" (scheduled at 2025-05-15 16:37:29.783039+05:30)
+2025-05-15 16:37:37,393 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:38:29 IST)" executed successfully
+2025-05-15 16:38:29,785 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:39:29 IST)" (scheduled at 2025-05-15 16:38:29.783039+05:30)
+2025-05-15 16:38:37,299 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:39:29 IST)" executed successfully
+2025-05-15 16:39:29,795 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:40:29 IST)" (scheduled at 2025-05-15 16:39:29.783039+05:30)
+2025-05-15 16:39:37,510 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:40:29 IST)" executed successfully
+2025-05-15 16:40:29,798 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:41:29 IST)" (scheduled at 2025-05-15 16:40:29.783039+05:30)
+2025-05-15 16:40:37,237 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:41:29 IST)" executed successfully
+2025-05-15 16:41:29,794 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:42:29 IST)" (scheduled at 2025-05-15 16:41:29.783039+05:30)
+2025-05-15 16:41:37,529 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:42:29 IST)" executed successfully
+2025-05-15 16:42:29,787 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:43:29 IST)" (scheduled at 2025-05-15 16:42:29.783039+05:30)
+2025-05-15 16:42:37,327 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:43:29 IST)" executed successfully
+2025-05-15 16:43:29,798 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:44:29 IST)" (scheduled at 2025-05-15 16:43:29.783039+05:30)
+2025-05-15 16:43:37,641 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:44:29 IST)" executed successfully
+2025-05-15 16:44:29,786 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:45:29 IST)" (scheduled at 2025-05-15 16:44:29.783039+05:30)
+2025-05-15 16:44:37,650 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:45:29 IST)" executed successfully
+2025-05-15 16:45:29,786 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:46:29 IST)" (scheduled at 2025-05-15 16:45:29.783039+05:30)
+2025-05-15 16:45:37,621 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:46:29 IST)" executed successfully
+2025-05-15 16:46:29,789 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:47:29 IST)" (scheduled at 2025-05-15 16:46:29.783039+05:30)
+2025-05-15 16:46:37,868 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:47:29 IST)" executed successfully
+2025-05-15 16:47:29,783 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:48:29 IST)" (scheduled at 2025-05-15 16:47:29.783039+05:30)
+2025-05-15 16:47:37,466 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:48:29 IST)" executed successfully
+2025-05-15 16:48:29,801 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:49:29 IST)" (scheduled at 2025-05-15 16:48:29.783039+05:30)
+2025-05-15 16:48:36,882 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:49:29 IST)" executed successfully
+2025-05-15 16:49:29,797 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:50:29 IST)" (scheduled at 2025-05-15 16:49:29.783039+05:30)
+2025-05-15 16:49:37,173 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:50:29 IST)" executed successfully
+2025-05-15 16:50:29,785 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:51:29 IST)" (scheduled at 2025-05-15 16:50:29.783039+05:30)
+2025-05-15 16:50:38,108 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:51:29 IST)" executed successfully
+2025-05-15 16:51:29,797 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:52:29 IST)" (scheduled at 2025-05-15 16:51:29.783039+05:30)
+2025-05-15 16:51:37,134 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:52:29 IST)" executed successfully
+2025-05-15 16:52:29,788 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:53:29 IST)" (scheduled at 2025-05-15 16:52:29.783039+05:30)
+2025-05-15 16:52:37,132 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:53:29 IST)" executed successfully
+2025-05-15 16:53:29,795 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:54:29 IST)" (scheduled at 2025-05-15 16:53:29.783039+05:30)
+2025-05-15 16:53:37,509 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:54:29 IST)" executed successfully
+2025-05-15 16:54:29,795 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:55:29 IST)" (scheduled at 2025-05-15 16:54:29.783039+05:30)
+2025-05-15 16:54:37,214 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:55:29 IST)" executed successfully
+2025-05-15 16:55:29,790 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:56:29 IST)" (scheduled at 2025-05-15 16:55:29.783039+05:30)
+2025-05-15 16:55:37,936 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:56:29 IST)" executed successfully
+2025-05-15 16:56:29,797 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:57:29 IST)" (scheduled at 2025-05-15 16:56:29.783039+05:30)
+2025-05-15 16:56:38,147 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:57:29 IST)" executed successfully
+2025-05-15 16:57:29,798 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:58:29 IST)" (scheduled at 2025-05-15 16:57:29.783039+05:30)
+2025-05-15 16:57:37,747 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:58:29 IST)" executed successfully
+2025-05-15 16:58:29,798 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:59:29 IST)" (scheduled at 2025-05-15 16:58:29.783039+05:30)
+2025-05-15 16:58:37,756 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 16:59:29 IST)" executed successfully
+2025-05-15 17:03:59,749 - WARNING - Run time of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:04:29 IST)" was missed by 0:00:29.966537
+2025-05-15 17:04:29,797 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:05:29 IST)" (scheduled at 2025-05-15 17:04:29.783039+05:30)
+2025-05-15 17:04:29,856 - ERROR - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:05:29 IST)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\services\stage.py", line 29, in update_current_stage
+    all_stages = db.query(Stage).all()
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ~~~~~~~~~~^^
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2858, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[SQL: SELECT stages.stage_id AS stages_stage_id, stages.stage_name AS stages_stage_name, stages.cycle_id AS stages_cycle_id, stages.start_date_of_stage AS stages_start_date_of_stage, stages.end_date_of_stage AS stages_end_date_of_stage, stages.is_active AS stages_is_active, stages.is_completed AS stages_is_completed 
+FROM stages]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\.venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\Scheduler\jobs.py", line 16, in update_stage_job
+    update_current_stage(db)
+    ~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\HP\Desktop\emp_frontend\Employee-Appraisal-Backend\services\stage.py", line 70, in update_current_stage
+    raise HTTPException(status_code=500, detail="Failed to update cycle stages")
+fastapi.exceptions.HTTPException: 500: Failed to update cycle stages
+2025-05-15 17:05:29,785 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:06:29 IST)" (scheduled at 2025-05-15 17:05:29.783039+05:30)
+2025-05-15 17:05:39,093 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:06:29 IST)" executed successfully
+2025-05-15 17:06:29,790 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:07:29 IST)" (scheduled at 2025-05-15 17:06:29.783039+05:30)
+2025-05-15 17:06:37,351 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:07:29 IST)" executed successfully
+2025-05-15 17:07:29,794 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:08:29 IST)" (scheduled at 2025-05-15 17:07:29.783039+05:30)
+2025-05-15 17:07:38,231 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:08:29 IST)" executed successfully
+2025-05-15 17:08:29,789 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:09:29 IST)" (scheduled at 2025-05-15 17:08:29.783039+05:30)
+2025-05-15 17:08:37,229 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:09:29 IST)" executed successfully
+2025-05-15 17:10:32,194 - WARNING - Run time of job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:11:29 IST)" was missed by 0:00:02.411398
+2025-05-15 17:11:29,797 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:12:29 IST)" (scheduled at 2025-05-15 17:11:29.783039+05:30)
+2025-05-15 17:11:37,339 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:12:29 IST)" executed successfully
+2025-05-15 17:12:29,795 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:13:29 IST)" (scheduled at 2025-05-15 17:12:29.783039+05:30)
+2025-05-15 17:12:37,171 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:13:29 IST)" executed successfully
+2025-05-15 17:13:29,796 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:14:29 IST)" (scheduled at 2025-05-15 17:13:29.783039+05:30)
+2025-05-15 17:13:37,091 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:14:29 IST)" executed successfully
+2025-05-15 17:14:29,787 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:15:29 IST)" (scheduled at 2025-05-15 17:14:29.783039+05:30)
+2025-05-15 17:14:37,317 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:15:29 IST)" executed successfully
+2025-05-15 17:15:29,797 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:16:29 IST)" (scheduled at 2025-05-15 17:15:29.783039+05:30)
+2025-05-15 17:15:37,881 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:16:29 IST)" executed successfully
+2025-05-15 17:16:29,792 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:17:29 IST)" (scheduled at 2025-05-15 17:16:29.783039+05:30)
+2025-05-15 17:16:37,614 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:17:29 IST)" executed successfully
+2025-05-15 17:17:29,796 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:18:29 IST)" (scheduled at 2025-05-15 17:17:29.783039+05:30)
+2025-05-15 17:17:37,093 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:18:29 IST)" executed successfully
+2025-05-15 17:18:29,787 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:19:29 IST)" (scheduled at 2025-05-15 17:18:29.783039+05:30)
+2025-05-15 17:18:37,129 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:19:29 IST)" executed successfully
+2025-05-15 17:19:29,796 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:20:29 IST)" (scheduled at 2025-05-15 17:19:29.783039+05:30)
+2025-05-15 17:19:37,197 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:20:29 IST)" executed successfully
+2025-05-15 17:20:29,792 - INFO - Running job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:21:29 IST)" (scheduled at 2025-05-15 17:20:29.783039+05:30)
+2025-05-15 17:20:37,472 - INFO - Job "start_scheduler.<locals>.update_stage_job (trigger: interval[0:01:00], next run at: 2025-05-15 17:21:29 IST)" executed successfully
