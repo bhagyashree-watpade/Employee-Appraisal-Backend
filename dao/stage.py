@@ -2,6 +2,7 @@
 from sqlalchemy.orm import Session
 from models.stages import Stage
 from models.appraisal_cycle import AppraisalCycle
+from dao.appraisal_cycle import get_cycle_by_id
 from schema.stage import StageCreate
 from fastapi import HTTPException
 from sqlalchemy.exc import SQLAlchemyError
@@ -14,8 +15,8 @@ def get_all_stages(db: Session):
         raise Exception(f"Database query failed while fetching stages: {str(e)}")
 
 # Check if cycle_id exists
-def get_cycle_by_id(db: Session, cycle_id: int):
-    return db.query(AppraisalCycle).filter(AppraisalCycle.cycle_id == cycle_id).first()
+# def get_cycle_by_id(db: Session, cycle_id: int):
+    # return db.query(AppraisalCycle).filter(AppraisalCycle.cycle_id == cycle_id).first()
 
 
 def create_stage(db: Session, stage_data: StageCreate):
