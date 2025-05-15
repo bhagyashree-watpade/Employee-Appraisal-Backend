@@ -1,4 +1,5 @@
 
+from fastapi import HTTPException
 from sqlalchemy.orm import Session
 from models.lead_assessment import LeadAssessmentRating
 from models.employee_allocation import EmployeeAllocation
@@ -7,6 +8,7 @@ from models.parameters import Parameter
 from models.stages import Stage
 from sqlalchemy.exc import SQLAlchemyError
 from datetime import datetime
+
 
 def save_lead_assessment_rating(db: Session, cycle_id: int, employee_id: int, ratings: list, discussion_date):
     try:
@@ -146,11 +148,24 @@ def save_lead_assessment_rating(db: Session, cycle_id: int, employee_id: int, ra
 #historical_report
 
 def get_overall_performance_rating(db: Session, cycle_id: int):
-    parameter = db.query(Parameter).filter(Parameter.parameter_title == 'Overall Performance Rating', Parameter.cycle_id == cycle_id).first()
-    if not parameter:
-        return []
+    try:
+        parameter = db.query(Parameter).filter(
+            Parameter.parameter_title == 'Overall Performance Rating',
+            Parameter.cycle_id == cycle_id
+        ).first()
 
-    return db.query(LeadAssessmentRating).filter(
-        LeadAssessmentRating.cycle_id == cycle_id,
-        LeadAssessmentRating.parameter_id == parameter.parameter_id
-    ).all()
+        if not parameter:
+            return []
+
+        ratings = db.query(LeadAssessmentRating).filter(
+            LeadAssessmentRating.cycle_id == cycle_id,
+            LeadAssessmentRating.parameter_id == parameter.parameter_id
+        ).all()
+
+        return ratings
+
+    except SQLAlchemyError as e:
+        # Optional: log the error
+        raise HTTPException(status_code=500, detail="Database error occurred while fetching overall performance ratings.")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
