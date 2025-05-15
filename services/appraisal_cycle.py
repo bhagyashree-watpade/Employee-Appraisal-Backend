@@ -1,40 +1,72 @@
-# from sqlalchemy.orm import Session
-# from dao.appraisal_cycle import get_all_cycles, get_cycle_by_id, create_cycle
+from fastapi import HTTPException
+from sqlalchemy.orm import Session
+
+from dao.appraisal_cycle import (
+    create_cycle,
+    get_all_cycles,
+    get_cycle_by_id,
+    get_all_cycles_with_stages,
+    delete_cycle,
+    fetch_cycle_status_by_id,
+    get_completed_and_lead_assessment_active_cycles,
+    get_completed_and_self_assessment_active_cycles,
+)
+
 from schema.appraisal_cycle_pydantic import AppraisalCycleCreate
 
-from sqlalchemy.orm import Session
-from dao.appraisal_cycle import create_cycle, get_all_cycles, get_cycle_by_id, get_all_cycles_with_stages, delete_cycle, get_completed_appraisal_cycles, get_completed_and_lead_assessment_active_cycles,get_completed_and_self_assessment_active_cycles
 
 def add_new_cycle(db: Session, cycle_data: AppraisalCycleCreate):
-    return create_cycle(db, cycle_data)
+    try:
+        return create_cycle(db, cycle_data)
+    except HTTPException:
+        raise
+
 
 def fetch_all_cycles(db: Session):
-    return get_all_cycles(db)
+    try:
+        return get_all_cycles(db)
+    except HTTPException:
+        raise
+
 
 def fetch_cycle_by_id(db: Session, cycle_id: int):
-    cycle = get_cycle_by_id(db, cycle_id)
-    if not cycle:
-        return None
-    return cycle
+    try:
+        return get_cycle_by_id(db, cycle_id)
+    except HTTPException:
+        raise
+
 
 def fetch_all_cycles_with_stages(db: Session):
-    return get_all_cycles_with_stages(db)
+    try:
+        return get_all_cycles_with_stages(db)
+    except HTTPException:
+        raise
+
 
 def delete_appraisal_cycle(db: Session, cycle_id: int):
-    return delete_cycle(db, cycle_id)
+    try:
+        return delete_cycle(db, cycle_id)
+    except HTTPException:
+        raise
 
-#for historical report
 
-# def get_completed_cycles(db: Session):
-#     return get_completed_appraisal_cycles(db)
+def get_cycle_status_service(db: Session, cycle_id: int):
+    try:
+        cycle = fetch_cycle_status_by_id(db, cycle_id)
+        return {"cycle_id": cycle.cycle_id, "status": cycle.status}
+    except HTTPException:
+        raise
 
 
 def get_completed_cycles(db: Session):
-    cycles = get_completed_and_lead_assessment_active_cycles(db)
-    # if not cycle:
-        # return None
-    return cycles
+    try:
+        return get_completed_and_lead_assessment_active_cycles(db)
+    except HTTPException:
+        raise
+
 
 def get_filtered_cycles(db: Session):
-    cycles = get_completed_and_self_assessment_active_cycles(db)
-    return cycles
+    try:
+        return get_completed_and_self_assessment_active_cycles(db)
+    except HTTPException:
+        raise
