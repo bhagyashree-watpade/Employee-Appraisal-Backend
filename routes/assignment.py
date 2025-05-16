@@ -8,8 +8,6 @@ from models.employee import Employee
 from models.appraisal_cycle import AppraisalCycle
 from typing import List
 from models.employee_allocation import EmployeeAllocation
-from logger_config import logging
-from sqlalchemy.exc import SQLAlchemyError, IntegrityError
 router = APIRouter(prefix="/assignments", tags=["Assignments"])
 
 

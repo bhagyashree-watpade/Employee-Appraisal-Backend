@@ -24,7 +24,6 @@ def get_all_questions(db: Session) -> List[Question]:
     try:
         return db.query(Question.question_id, Question.question_text).all()
     except SQLAlchemyError as e:
-        logging.error(f"Error fetching all questions: {str(e)}")
         raise
 
 
@@ -44,7 +43,6 @@ def get_all_questions_with_option(db: Session) -> List[Question]:
     try:
         return db.query(Question).options(selectinload(Question.options)).all()
     except SQLAlchemyError as e:
-        logging.error(f"Error fetching questions with options: {str(e)}")
         raise
 
 
@@ -74,11 +72,9 @@ def add_new_question(question_data: QuestionSchema, db: Session) -> Question:
         return new_question
     except IntegrityError as e:
         db.rollback()
-        logging.error(f"Integrity error adding new question: {str(e)}")
         raise
     except SQLAlchemyError as e:
         db.rollback()
-        logging.error(f"Error adding new question: {str(e)}")
         raise
 
 def add_options(question_id: int, options: List[str], db: Session) -> List[Option]:
@@ -106,10 +102,8 @@ def add_options(question_id: int, options: List[str], db: Session) -> List[Optio
         db.commit()
     except IntegrityError as e:
         db.rollback()
-        logging.error(f"Integrity error adding options for question {question_id}: {str(e)}")
         raise
     except SQLAlchemyError as e:
         db.rollback()
-        logging.error(f"Error adding options for question {question_id}: {str(e)}")
         raise
 

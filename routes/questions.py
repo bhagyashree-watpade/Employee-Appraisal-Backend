@@ -6,8 +6,6 @@ from sqlalchemy.exc import SQLAlchemyError, IntegrityError
 from schema.questions import QuestionSchema, QuestionResponseSchema, QuestionsSchema
 from typing import List
 from dao.questions import get_all_questions, add_new_question, add_options, get_all_questions_with_option
-import logging
-from logger_config import logging
 
 router = APIRouter(tags=["Questions"])
 
@@ -22,13 +20,11 @@ def list_question(db: Session = Depends(get_db)):
             )
         return questions
     except SQLAlchemyError as e:
-        logging.error(f"Database error when fetching questions: {str(e)}")
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="Failed to retrieve questions from database"
         )
     except Exception as e:
-        logging.error(f"Unexpected error in list_question: {str(e)}")
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="An unexpected error occurred"
@@ -46,13 +42,11 @@ def list_of_questions_with_options(db: Session = Depends(get_db)):
             )
         return questions
     except SQLAlchemyError as e:
-        logging.error(f"Database error when fetching questions with options: {str(e)}")
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="Failed to retrieve questions with options from database"
         )
     except Exception as e:
-        logging.error(f"Unexpected error in list_of_questions_with_options: {str(e)}")
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="An unexpected error occurred"
@@ -86,14 +80,12 @@ def add_question(question_data: QuestionSchema, db: Session = Depends(get_db)):
         )
     except IntegrityError as e:
         db.rollback()
-        logging.error(f"Database integrity error: {str(e)}")
         raise HTTPException(
             status_code=status.HTTP_409_CONFLICT,
             detail="Question could not be added due to a conflict with existing data"
         )
     except SQLAlchemyError as e:
         db.rollback()
-        logging.error(f"Database error when adding question: {str(e)}")
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="Failed to add question to database"
@@ -102,7 +94,6 @@ def add_question(question_data: QuestionSchema, db: Session = Depends(get_db)):
         raise
     except Exception as e:
         db.rollback()
-        logging.error(f"Unexpected error in add_question: {str(e)}")
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="An unexpected error occurred"

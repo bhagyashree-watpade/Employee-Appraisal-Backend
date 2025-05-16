@@ -82,22 +82,16 @@ def get_response(db: Session, cycle_id: int) -> List[Dict[str, str]]:
             for row in result.all()
         ]
 
-        logging.info(f"Retrieved {len(response)} self-assessment responses for cycle {cycle_id}")
-
         return response
 
     except ValueError as val_err:
-        logging.error(f"Validation error in get_response: {str(val_err)}")
         raise
 
     except DataError as data_err:
-        logging.error(f"Data error while retrieving responses for cycle {cycle_id}: {str(data_err)}")
         raise SQLAlchemyError(f"Data processing error: {str(data_err)}")
 
     except SQLAlchemyError as db_err:
-        logging.error(f"Database error retrieving responses for cycle {cycle_id}: {str(db_err)}")
         raise
 
     except Exception as e:
-        logging.error(f"Unexpected error retrieving responses for cycle {cycle_id}: {str(e)}")
         raise
