@@ -1,4 +1,6 @@
-from sqlalchemy.orm import Session,joinedload
+from sqlalchemy.orm import Session, joinedload
+from sqlalchemy.exc import SQLAlchemyError
+from fastapi import HTTPException
 from models.employee_allocation import EmployeeAllocation
 from models.assignment import QuestionAssignment
 from models.questions import Question, Option
@@ -11,26 +13,35 @@ from typing import List
 
 # Get the cycle status
 def get_cycle_status(db: Session, cycle_id: int) -> str:
-    cycle = db.query(AppraisalCycle).filter(AppraisalCycle.cycle_id == cycle_id).first()
-    return cycle.status if cycle else None
+    try:
+        cycle = db.query(AppraisalCycle).filter(AppraisalCycle.cycle_id == cycle_id).first()
+        return cycle.status if cycle else None
+    except SQLAlchemyError:
+        raise HTTPException(status_code=500, detail="Database error while fetching cycle status.")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
-# Fetch the active(for which self assessment stage is either active or completed) and completed cycles for which employee is allocated
+# Fetch the active and completed cycles for which employee is allocated
 def get_allocated_cycles(db: Session, employee_id: int):
-    return db.query(AppraisalCycle).join(EmployeeAllocation).join(Stage).filter(
-        EmployeeAllocation.employee_id == employee_id,
-        or_(
-            AppraisalCycle.status == "completed",
-            and_(
-                AppraisalCycle.status == "active", 
-                Stage.stage_name == "Self Assessment"  ,
-                or_(
-                    Stage.is_active == True,
-                    Stage.is_completed == True
+    try:
+        return db.query(AppraisalCycle).join(EmployeeAllocation).join(Stage).filter(
+            EmployeeAllocation.employee_id == employee_id,
+            or_(
+                AppraisalCycle.status == "completed",
+                and_(
+                    AppraisalCycle.status == "active",
+                    Stage.stage_name == "Self Assessment",
+                    or_(
+                        Stage.is_active == True,
+                        Stage.is_completed == True
+                    )
                 )
             )
-        )
-    ).all()
-
+        ).all()
+    except SQLAlchemyError:
+        raise HTTPException(status_code=500, detail="Database error while fetching allocated cycles.")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 # Fetch the active (for which self assessment stage is either active or completed)  and completed cycles  for which either the team lead or one of the employee under him is allocated 
 def get_team_lead_cycles(db: Session, team_lead_id: int):
@@ -63,46 +74,56 @@ def get_team_lead_cycles(db: Session, team_lead_id: int):
 
     return cycles
 
-
 # Fetch questions assigned to the employee for the selected active and completed cycles
 def get_assigned_questions_with_options(db: Session, employee_id: int, cycle_id: int):
-    # Get the allocation_id for the employee in this cycle
-    allocation = db.query(EmployeeAllocation).filter_by(employee_id=employee_id, cycle_id=cycle_id).first()
-    allocation_id = allocation.allocation_id if allocation else None
+    try:
+        allocation = db.query(EmployeeAllocation).filter_by(employee_id=employee_id, cycle_id=cycle_id).first()
+        allocation_id = allocation.allocation_id if allocation else None
 
-    # Get the questions and their options
-    questions = db.query(Question).join(QuestionAssignment).options(
-        joinedload(Question.options)
-    ).filter(
-        QuestionAssignment.employee_id == employee_id,
-        QuestionAssignment.cycle_id == cycle_id
-    ).all()
+        questions = db.query(Question).join(QuestionAssignment).options(
+            joinedload(Question.options)
+        ).filter(
+            QuestionAssignment.employee_id == employee_id,
+            QuestionAssignment.cycle_id == cycle_id
+        ).all()
 
-    # Attach allocation_id to each question (manually for now)
-    for question in questions:
-        question.allocation_id = allocation_id
+        for question in questions:
+            question.allocation_id = allocation_id
 
-    return questions
+        return questions
+    except SQLAlchemyError:
+        raise HTTPException(status_code=500, detail="Database error while fetching assigned questions.")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
-
-
-# Fetch the reponses
+# Fetch the existing responses for the employee and cycle
 def get_existing_responses(db: Session, employee_id: int, cycle_id: int):
-    return (
-        db.query(SelfAssessmentResponse)
-        .options(
-            joinedload(SelfAssessmentResponse.question),
-            joinedload(SelfAssessmentResponse.option)
+    try:
+        return (
+            db.query(SelfAssessmentResponse)
+            .options(
+                joinedload(SelfAssessmentResponse.question),
+                joinedload(SelfAssessmentResponse.option)
+            )
+            .filter(
+                SelfAssessmentResponse.employee_id == employee_id,
+                SelfAssessmentResponse.cycle_id == cycle_id
+            )
+            .all()
         )
-        .filter(
-            SelfAssessmentResponse.employee_id == employee_id,
-            SelfAssessmentResponse.cycle_id == cycle_id
-        )
-        .all()
-    )
-
+    except SQLAlchemyError:
+        raise HTTPException(status_code=500, detail="Database error while fetching existing responses.")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 # Save self assessment responses for the active cycles
 def submit_self_assessment_responses(db: Session, responses: List[SelfAssessmentResponse]):
-    db.add_all(responses)
-    db.commit()
+    try:
+        db.add_all(responses)
+        db.commit()
+    except SQLAlchemyError:
+        db.rollback()
+        raise HTTPException(status_code=500, detail="Database error while saving responses.")
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=500, detail=str(e))
