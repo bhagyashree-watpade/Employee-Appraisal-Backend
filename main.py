@@ -25,7 +25,7 @@ def startup_event():
 app.add_middleware(
 
     # allow_origins=["http://localhost:3000"], 
-    allow_origins=["https://employee-appraisal-system-frontend-seven.vercel.app/"],  
+    allow_origins=["https://employee-appraisal-system-frontend-seven.vercel.app"],  
     # allow_origins=["https://bluepineapple-employee-appraisal-system.vercel.app"],   # Bhagyashree
    
     allow_credentials=True,
