@@ -18,6 +18,14 @@ router = APIRouter(prefix="/assessment", tags=["Self Assessment"])
 # Fetch the active and completed cycles for which employee is allocated
 @router.get("/cycles/{employee_id}")
 def fetch_employee_cycles(employee_id: int, db: Session = Depends(get_db)):
+    '''
+    Fetch the active and completed cycles for which employee is allocated.
+    Args:
+        employee_id: ID of the employee
+        db: Database session
+    Returns:
+        List of AppraisalCycle objects
+    '''
     try:
         cycles = get_employee_cycles(db, employee_id)
         if not cycles:

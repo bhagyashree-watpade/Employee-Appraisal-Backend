@@ -10,7 +10,7 @@ class AppraisalCycle(Base):
     cycle_id = Column(Integer, primary_key=True, autoincrement=True)
     cycle_name = Column(String(100), nullable=False)
     description = Column(Text, nullable=False)
-    status = Column(String(20), nullable=False)  # Nullable if the column allows NULL values
+    status = Column(String(20), nullable=False)  
     start_date_of_cycle = Column(Date, nullable=False)
     end_date_of_cycle = Column(Date, nullable=False)
    
@@ -21,5 +21,4 @@ class AppraisalCycle(Base):
     )
 
     stages = relationship("Stage", back_populates="cycle", cascade="all, delete")
-     # Define One-to-Many Relationship
     parameters = relationship("Parameter", back_populates="cycle", cascade="all, delete-orphan")

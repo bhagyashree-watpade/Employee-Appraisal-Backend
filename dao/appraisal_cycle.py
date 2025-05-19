@@ -8,7 +8,16 @@ from models.stages import Stage
 from models.parameters import Parameter
 from schema.appraisal_cycle_pydantic import AppraisalCycleCreate, StageResponse, AppraisalCycleResponseWithStages
 
+#create a new appraisal cycle
 def create_cycle(db: Session, cycle_data: AppraisalCycleCreate):
+    ''''
+    Create a new appraisal cycle in the database.
+    Args:
+        db: Database session
+        cycle_data:object containing cycle details
+    Returns:
+        Newly created AppraisalCycle object
+    '''
     try:
         new_cycle = AppraisalCycle(
             cycle_name=cycle_data.cycle_name,
@@ -17,18 +26,26 @@ def create_cycle(db: Session, cycle_data: AppraisalCycleCreate):
             start_date_of_cycle=cycle_data.start_date_of_cycle,
             end_date_of_cycle=cycle_data.end_date_of_cycle
         )
-        db.add(new_cycle)
+        db.add(new_cycle) # Add the new cycle 
         db.commit()
         db.refresh(new_cycle)
         return new_cycle
     except SQLAlchemyError:
-        db.rollback()
+        db.rollback() 
         raise HTTPException(status_code=500, detail="Database error while creating cycle.")
     except Exception as e:
         db.rollback()
         raise HTTPException(status_code=500, detail=str(e))
 
+#get all appraisal cycles
 def get_all_cycles(db: Session):
+    '''
+    Fetch all appraisal cycles from the database.
+    Args:
+        db: Database session
+        Returns:
+            List of all AppraisalCycle objects
+            '''
     try:
         return db.query(AppraisalCycle).all()
     except SQLAlchemyError:
@@ -36,15 +53,32 @@ def get_all_cycles(db: Session):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+#get cycle by id
 def get_cycle_by_id(db: Session, cycle_id: int):
+    '''
+    Fetch a specific appraisal cycle by its ID.
+    Args:
+        db: Database session
+        cycle_id: ID of the appraisal cycle 
+    Returns: AppraisalCycle object if found, else None
+    '''
     try:
-        return db.query(AppraisalCycle).filter(AppraisalCycle.cycle_id == cycle_id).first()
+        return db.query(AppraisalCycle).filter(AppraisalCycle.cycle_id == cycle_id).first() 
     except SQLAlchemyError:
         raise HTTPException(status_code=500, detail="Database error while fetching cycle by ID.")
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+#get all cycles with stages
 def get_all_cycles_with_stages(db: Session):
+    '''
+    Fetch all appraisal cycles along with their stages.
+    Args:
+        db: Database session    
+    Returns:
+        List of Appraisal Cycle objects with corresponding stages
+    
+    '''
     try:
         cycles = db.query(
             AppraisalCycle.cycle_id,
@@ -94,14 +128,23 @@ def get_all_cycles_with_stages(db: Session):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+#delte cycle by id
 def delete_cycle(db: Session, cycle_id: int):
+    ''''
+    Delete an appraisal cycle by its ID.
+    Args:
+        db: Database session
+        cycle_id: ID of the appraisal cycle to delete
+    Returns:
+        Success message if deletion is successful
+    '''
     try:
-        cycle = db.query(AppraisalCycle).filter(AppraisalCycle.cycle_id == cycle_id).first()
+        cycle = db.query(AppraisalCycle).filter(AppraisalCycle.cycle_id == cycle_id).first() # Fetch the cycle
 
         if not cycle:
             raise HTTPException(status_code=404, detail="Cycle not found")
-
-        if cycle.status in ['active', 'completed']:
+        # Check if the cycle is active or completed
+        if cycle.status in ['active', 'completed']: 
             raise HTTPException(status_code=400, detail="Cannot delete an active or completed cycle.")
 
         db.query(Stage).filter(Stage.cycle_id == cycle_id).delete()
@@ -118,7 +161,16 @@ def delete_cycle(db: Session, cycle_id: int):
         db.rollback()
         raise HTTPException(status_code=500, detail=str(e))
 
+#get cycle status by id
 def fetch_cycle_status_by_id(db: Session, cycle_id: int):
+    '''
+    Fetch the status of a specific appraisal cycle by its ID.
+    Args:
+        db: Database session
+        cycle_id: ID of the appraisal cycle
+    Returns:
+        AppraisalCycle object if found, else None
+    '''
     try:
         cycle = db.query(AppraisalCycle).filter(AppraisalCycle.cycle_id == cycle_id).first()
         if not cycle:
@@ -129,8 +181,17 @@ def fetch_cycle_status_by_id(db: Session, cycle_id: int):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+#get completed and lead assessment active cycles
 def get_completed_and_lead_assessment_active_cycles(db: Session):
+    '''
+    Fetch all completed cycles and active cycles for which the "Lead Assessment" stage is active.
+    Args:
+        db: Database session
+    Returns:
+        List of AppraisalCycle objects
+    '''
     try:
+        # Fetch cycles that are either completed or active for which the "Lead Assessment" stage is either active or completed
         return db.query(AppraisalCycle).join(Stage, AppraisalCycle.cycle_id == Stage.cycle_id)\
             .filter(
                 or_(
@@ -147,7 +208,15 @@ def get_completed_and_lead_assessment_active_cycles(db: Session):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+#get completed and self assessment active cycles
 def get_completed_and_self_assessment_active_cycles(db: Session):
+    '''
+    Fetch all completed cycles and active cycles for which the "Self Assessment" stage is active.
+    Args:
+        db: Database session
+        Returns:
+            List of AppraisalCycle objects
+    '''
     try:
         return db.query(AppraisalCycle).join(Stage, AppraisalCycle.cycle_id == Stage.cycle_id)\
             .filter(

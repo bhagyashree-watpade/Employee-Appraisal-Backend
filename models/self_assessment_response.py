@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, Text, ForeignKey
 from sqlalchemy.orm import relationship
-from database.connection import Base  # or from your core base location
+from database.connection import Base 
 
 class SelfAssessmentResponse(Base):
     __tablename__ = "self_assessment_response"

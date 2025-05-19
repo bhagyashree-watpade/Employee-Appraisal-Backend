@@ -6,6 +6,7 @@ from database.connection import get_db
 import sqlalchemy.exc
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
+# Login endpoint
 @router.post("/login")
 def login(request: LoginRequest, db: Session = Depends(get_db)):
     try:
@@ -13,7 +14,7 @@ def login(request: LoginRequest, db: Session = Depends(get_db)):
         if not employee:
             raise HTTPException(
                 status_code=401,
-                detail="Invalid credentials"
+                detail="Invalid credentials"    
             )
         return {
             "message": "Login successful",

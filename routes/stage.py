@@ -21,7 +21,7 @@ def get_stages(db: Session = Depends(get_db)):
             )
         return stages
     except HTTPException:
-        # Re-raise HTTPExceptions (like 404)
+        # Re-raise HTTPExceptions
         raise
     except Exception as e:
         raise HTTPException(
@@ -74,7 +74,7 @@ def get_current_stage(
         return current_stage
 
     except HTTPException:
-        # Re-raise known HTTP exceptions without logging
+        # Re-raise known HTTP exceptions
         raise
 
     except Exception as exception:

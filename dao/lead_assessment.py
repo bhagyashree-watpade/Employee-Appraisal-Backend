@@ -9,8 +9,19 @@ from models.stages import Stage
 from sqlalchemy.exc import SQLAlchemyError
 from datetime import datetime
 
-
+# save lead assessment ratings
 def save_lead_assessment_rating(db: Session, cycle_id: int, employee_id: int, ratings: list, discussion_date):
+    '''
+    Save or update lead assessment ratings for an employee in a specific appraisal cycle.
+    Args:
+        db: Database session
+        cycle_id: appraisal cycle ID
+        employee_id: employee ID
+        ratings: List of dictionaries containing parameter_id and parameter_rating
+        discussion_date: Date of discussion
+    Returns:
+        Success message or error message
+    '''
     try:
         # Validate if the appraisal cycle is active
         active_cycle = db.query(AppraisalCycle).filter(
@@ -129,7 +140,7 @@ def save_lead_assessment_rating(db: Session, cycle_id: int, employee_id: int, ra
                     discussion_date=discussion_date
                 )
                 db.add(new_rating)
-                changes_made = True  # Mark that an insert was done
+                changes_made = True  # Mark that a new record was added
 
         if changes_made:
             db.commit()

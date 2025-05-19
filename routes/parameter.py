@@ -11,6 +11,7 @@ from typing import List
 
 router = APIRouter(prefix="/parameters", tags=["Parameters"])
 
+# Fetch all parameters
 @router.get("/", response_model=List[ParameterResponse])
 def get_parameters(db: Session = Depends(get_db)):
     try:
@@ -29,6 +30,7 @@ def get_parameters(db: Session = Depends(get_db)):
         )
         
 
+# Fetch a parameter by ID
 @router.get("/{parameter_id}", response_model=ParameterResponse)
 def get_parameter(parameter_id: int, db: Session = Depends(get_db)):
     try:
@@ -46,7 +48,7 @@ def get_parameter(parameter_id: int, db: Session = Depends(get_db)):
             detail=f"An unexpected error occurred: {str(e)}"
         )
 
-
+# Add a new parameter
 @router.post("/", response_model=ParameterResponse)
 def add_parameter(parameter_data: ParameterCreate, db: Session = Depends(get_db)):
     try:
@@ -64,7 +66,7 @@ def add_parameter(parameter_data: ParameterCreate, db: Session = Depends(get_db)
             detail=f"An unexpected error occurred: {str(error)}"
         )
 
-
+# Fetch appraisal cycle parameters for a given cycle based on employee role
 @router.get("/{cycle_id}/{employee_id}")
 def fetch_parameters(cycle_id: int, employee_id: int, db: Session = Depends(get_db)):
     """Fetch appraisal parameters for a given cycle and employee role"""

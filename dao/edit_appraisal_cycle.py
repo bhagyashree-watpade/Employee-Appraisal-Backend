@@ -9,7 +9,7 @@ from sqlalchemy.exc import SQLAlchemyError, IntegrityError
 from fastapi import HTTPException
 
 from logger_config import logging
-import logging
+
 
 
 def get_cycle(db: Session, cycle_id: int) -> GetAppraisalCycleResponse:
@@ -30,7 +30,6 @@ def get_cycle(db: Session, cycle_id: int) -> GetAppraisalCycleResponse:
         cycle = db.query(AppraisalCycle).filter(AppraisalCycle.cycle_id == cycle_id).first()
 
         if not cycle:
-            logging.warning(f"Appraisal cycle with ID {cycle_id} not found")
             raise HTTPException(status_code=404, detail=f"Appraisal cycle with ID {cycle_id} not found")
 
         stages = [
@@ -56,7 +55,6 @@ def get_cycle(db: Session, cycle_id: int) -> GetAppraisalCycleResponse:
             for param in cycle.parameters
         ]
 
-        logging.info(f"Successfully fetched cycle with ID {cycle_id}, with {len(stages)} stages and {len(parameters)} parameters")
         return GetAppraisalCycleResponse(
             cycle_id=cycle.cycle_id,
             cycle_name=cycle.cycle_name,
@@ -70,10 +68,8 @@ def get_cycle(db: Session, cycle_id: int) -> GetAppraisalCycleResponse:
     except HTTPException:
         raise
     except SQLAlchemyError as db_err:
-        logging.error(f"Database error while retrieving cycle with ID {cycle_id}: {str(db_err)}")
         raise HTTPException(status_code=500, detail="Database error while retrieving appraisal cycle")
     except Exception as e:
-        logging.error(f"Unexpected error while retrieving cycle with ID {cycle_id}: {str(e)}")
         raise HTTPException(status_code=500, detail="Internal server error while retrieving appraisal cycle")
     
     

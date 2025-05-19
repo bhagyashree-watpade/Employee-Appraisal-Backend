@@ -12,6 +12,7 @@ from logger_config import logging
 
 router = APIRouter(tags=["Questions"])
 
+# Fetch all questions
 @router.get("/question", response_model=List[QuestionsSchema])
 def list_question(db: Session = Depends(get_db)):
     try:
@@ -35,7 +36,7 @@ def list_question(db: Session = Depends(get_db)):
             detail="An unexpected error occurred"
         )
 
-
+# Fetch all questions with options
 @router.get("/questions-with-options", response_model=List[QuestionResponseSchema])
 def list_of_questions_with_options(db: Session = Depends(get_db)):
     try:
@@ -59,7 +60,7 @@ def list_of_questions_with_options(db: Session = Depends(get_db)):
             detail="An unexpected error occurred"
         )
 
-
+# Add a new question
 @router.post("/question", response_model=QuestionResponseSchema, status_code=status.HTTP_201_CREATED)
 def add_question(question_data: QuestionSchema, db: Session = Depends(get_db)):
     try:
