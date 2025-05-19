@@ -4,9 +4,14 @@ from sqlalchemy.exc import SQLAlchemyError
 from fastapi import HTTPException
 
 def assign_employee_to_cycle(db: Session, employee_id: int, cycle_id: int):
-    """
-    Add an employee-cycle pair to EmployeeAllocation if not already present.
-    """
+    '''
+    Assign an employee to a specific appraisal cycle.
+    Args:
+        db: Database session
+        employee_id: ID of the employee to assign
+        cycle_id: appraisal cycle ID
+    
+    '''
     try:
         existing_allocation = db.query(EmployeeAllocation).filter(
             EmployeeAllocation.employee_id == employee_id,

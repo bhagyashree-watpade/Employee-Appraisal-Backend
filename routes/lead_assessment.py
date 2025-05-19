@@ -10,8 +10,16 @@ from database.connection import get_db
 
 router = APIRouter(prefix="/lead_assessment", tags=["Lead Assessment"])
 
+# Save lead assessment ratings
 @router.post("/save_rating")
 def save_rating(request: LeadAssessmentRatingRequest, db: Session = Depends(get_db)):
+    '''
+    Save lead assessment ratings.
+    Args:
+        request: LeadAssessmentRatingRequest object containing cycle_id, employee_id, ratings, and discussion_date
+        db: Database session
+    Returns:
+        Result of the save operation'''
     try:
         # Check if the cycle is active
         cycle = db.query(AppraisalCycle).filter(AppraisalCycle.cycle_id == request.cycle_id).first()
@@ -47,8 +55,17 @@ def save_rating(request: LeadAssessmentRatingRequest, db: Session = Depends(get_
         raise HTTPException(status_code=500, detail="Internal server error.")
 
 
+# Fetch previous ratings for a given employee and cycle
 @router.get("/lead_assessment/previous_data/{cycle_id}/{employee_id}")
 def get_previous_ratings(cycle_id: int, employee_id: int, db: Session = Depends(get_db)):
+    '''
+    Fetch previous ratings for a given employee and cycle.
+    Args:
+        cycle_id: appraisal cycle  ID 
+        employee_id: employee ID
+        db: Database session
+    Returns:
+        Dictionary containing cycle status, ratings, and discussion date '''
     try:
         # Fetch cycle status
         cycle = db.query(AppraisalCycle).filter(AppraisalCycle.cycle_id == cycle_id).first()
@@ -85,6 +102,13 @@ def get_previous_ratings(cycle_id: int, employee_id: int, db: Session = Depends(
 # For getting list of employee_id and "overall performance rating" for a selected cycle
 @router.get("/employees_ratings/{cycle_id}", response_model=list[LeadAssessmentRatingResponse])
 def get_employee_ratings(cycle_id: int, db: Session = Depends(get_db)):
+    '''
+    Get list of employee_id and "overall performance rating" for a selected cycle.
+    Args:
+        cycle_id: appraisal cycle ID
+        db: Database session
+    Returns:    
+        List of LeadAssessmentRatingResponse objects containing employee_id and parameter_rating'''
     try:
         data = get_overall_rating_of_employee(db, cycle_id)
         if not data:

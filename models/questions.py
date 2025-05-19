@@ -7,7 +7,7 @@ class Question(Base):
     __tablename__ = "question"
 
     question_id = Column(Integer, primary_key=True, autoincrement=True)
-    question_text = Column(Text, nullable=False)  # Question text
+    question_text = Column(Text, nullable=False) 
     question_type = Column(String(50))
     options = relationship("Option", back_populates="question", cascade="all, delete-orphan")
 
