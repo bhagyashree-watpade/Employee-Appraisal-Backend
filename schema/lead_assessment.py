@@ -5,7 +5,7 @@ from typing import List, Optional
 class LeadAssessmentRatingRequest(BaseModel):
     cycle_id: int
     employee_id: int
-    ratings: List[dict]  # [{ "parameter_ID": int, "parameter_rating": int, "specific_input": str }]
+    ratings: List[dict]  
     discussion_date: date
 
     class Config:
@@ -13,7 +13,7 @@ class LeadAssessmentRatingRequest(BaseModel):
 
 class LeadAssessmentRatingResponse(BaseModel):
     employee_id: int
-    parameter_rating: Optional[int]  # None if not allocated
+    parameter_rating: Optional[int] 
 
     class Config:
         orm_mode = True

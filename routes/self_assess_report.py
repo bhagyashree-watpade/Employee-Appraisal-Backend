@@ -11,6 +11,7 @@ from typing import List, Dict
 
 router = APIRouter(tags=["Self Assessment Report"])
 
+# Fetch self-assessment report for a specific cycle
 @router.get("/self-assessment-report/{cycle_id}")
 def get_active_cycle(
     cycle_id: int, 

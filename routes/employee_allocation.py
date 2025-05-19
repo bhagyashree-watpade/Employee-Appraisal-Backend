@@ -8,8 +8,17 @@ from typing import List
 
 router = APIRouter(prefix="/employee-allocation", tags=["Employee Allocation"])
 
+# get all employees allocated to a specific cycle
 @router.get("/{cycle_id}", response_model=List[int])
 def get_allocated_employees(cycle_id: int, db: Session = Depends(get_db)):
+    '''
+    Fetch all employees allocated to a specific appraisal cycle.
+    Args:
+        cycle_id: ID of the appraisal cycle
+        db: Database session
+    Returns:
+        List of employee IDs allocated to the cycle
+    '''
     try:
         employees = db.query(EmployeeAllocation.employee_id).filter(
             EmployeeAllocation.cycle_id == cycle_id

@@ -22,6 +22,15 @@ router = APIRouter(prefix="/appraisal_cycle", tags=["Appraisal Cycle"])
 # Create a new cycle
 @router.post("/", response_model=AppraisalCycleResponse)
 def create_cycle(cycle_data: AppraisalCycleCreate, db: Session = Depends(get_db)):
+    ''''
+    Create a new appraisal cycle.
+    Args:   
+        cycle_data: object containing cycle details
+        db: Database session
+    Returns:
+        Newly created AppraisalCycle object
+        
+    '''
     try:
         if cycle_data.status not in ["active", "inactive"]:
             raise HTTPException(status_code=422, detail="Invalid status. Allowed values: 'active', 'inactive'")

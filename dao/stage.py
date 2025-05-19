@@ -7,18 +7,15 @@ from schema.stage import StageCreate
 from fastapi import HTTPException
 from sqlalchemy.exc import SQLAlchemyError
 
-
+# Fetch all stages
 def get_all_stages(db: Session):
     try:
         return db.query(Stage).all()
     except SQLAlchemyError as e:
         raise Exception(f"Database query failed while fetching stages: {str(e)}")
 
-# Check if cycle_id exists
-# def get_cycle_by_id(db: Session, cycle_id: int):
-    # return db.query(AppraisalCycle).filter(AppraisalCycle.cycle_id == cycle_id).first()
 
-
+#   Fetch stages by cycle ID
 def create_stage(db: Session, stage_data: StageCreate):
     try:
         cycle = get_cycle_by_id(db, stage_data.cycle_id)
@@ -49,7 +46,7 @@ def create_stage(db: Session, stage_data: StageCreate):
     except Exception as exception:
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
-
+#   Fetch stages by cycle ID
 def get_self_assessment_stage_by_cycle_id(db: Session, cycle_id: int):
     try:
         stage = db.query(Stage).filter(
@@ -60,7 +57,7 @@ def get_self_assessment_stage_by_cycle_id(db: Session, cycle_id: int):
     except Exception as exception:
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
-
+#   Fetch lead assessment stages by cycle ID
 def get_lead_assessment_stage_by_cycle_id(db: Session, cycle_id: int):
     try:
         stage = db.query(Stage).filter(

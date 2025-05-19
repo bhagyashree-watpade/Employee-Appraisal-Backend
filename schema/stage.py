@@ -9,13 +9,13 @@ class StageBase(BaseModel):
     end_date_of_stage: date
 
 class StageCreate(StageBase):
-    pass  # Used for creating a new stage
+    pass  
 
 class StageResponse(StageBase):
     stage_id: int
 
     class Config:
-        orm_mode = True  # Allows SQLAlchemy models to be converted to Pydantic models
+        orm_mode = True  
 
 
 class StageInfoResponse(BaseModel):

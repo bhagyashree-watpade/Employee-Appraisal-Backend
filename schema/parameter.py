@@ -1,6 +1,4 @@
 from pydantic import BaseModel
-# from datetime import date
-# from typing import Optional
 
 class ParameterBase(BaseModel):
     parameter_title: str
@@ -11,11 +9,10 @@ class ParameterBase(BaseModel):
     is_fixed_parameter : bool
 
 class ParameterCreate(ParameterBase):
-    pass  # Used for creating a new stage
+    pass  
 
 class ParameterResponse(ParameterBase):
     parameter_id: int
 
     class Config:
-        orm_mode = True  # (For older FastAPI versions)
-
+        orm_mode = True 
