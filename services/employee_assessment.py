@@ -14,19 +14,21 @@ from dao.employee_assessment import (
     submit_self_assessment_responses
 )
 
+# To get the cycles for which the employee is allocted
 def get_employee_cycles(db: Session, employee_id: int):
     try:
         return get_allocated_cycles(db, employee_id)
     except HTTPException:
         raise
 
-
+# To get the assigned questions for the particular cycle
 def get_questions_for_cycle(db: Session, employee_id: int, cycle_id: int):
     try:
         return get_assigned_questions_with_options(db, employee_id, cycle_id)
     except HTTPException:
         raise
 
+# To save the responses of employees fro self assessment
 def save_self_assessment_responses(db: Session, responses: List[AssessmentResponseIn]):
     try:
         if not responses:
@@ -39,7 +41,7 @@ def save_self_assessment_responses(db: Session, responses: List[AssessmentRespon
         if cycle_status == "completed":
             raise HTTPException(status_code=403, detail="Responses cannot be submitted for completed cycle.")
 
-        # Delete old responses
+        # Deleting old responses
         for res in responses:
             db.query(SelfAssessmentResponse).filter(
                 SelfAssessmentResponse.employee_id == res.employee_id,
@@ -47,7 +49,7 @@ def save_self_assessment_responses(db: Session, responses: List[AssessmentRespon
                 SelfAssessmentResponse.question_id == res.question_id
             ).delete()
 
-        # Add updated responses
+        # Adding updated responses
         response_objs = []
         for res in responses:
             if res.option_ids:
@@ -86,6 +88,7 @@ def save_self_assessment_responses(db: Session, responses: List[AssessmentRespon
         raise HTTPException(status_code=500, detail=str(e))
 
 
+# Get the responses in read only mode
 def get_readonly_responses(db: Session, employee_id: int, cycle_id: int) -> List[AssessmentResponseOut]:
     try:
         raw_responses = get_existing_responses(db, employee_id, cycle_id)

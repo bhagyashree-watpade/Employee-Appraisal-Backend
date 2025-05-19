@@ -21,7 +21,7 @@ def add_new_stage(db: Session, stage_data: StageCreate):
     except Exception as exception:
         raise exception
 
-
+# Update the cuurent stage
 def update_current_stage(db: Session):
     try:
         today = datetime.utcnow().date()
@@ -70,7 +70,7 @@ def update_current_stage(db: Session):
         raise HTTPException(status_code=500, detail="Failed to update cycle stages")
 
 
-
+# Get the information about self assessment stage
 def fetch_self_assessment_stage_info(cycle_id: int, db: Session) -> StageInfoResponse:
     try:
         stage = get_self_assessment_stage_by_cycle_id(db, cycle_id)
@@ -84,12 +84,11 @@ def fetch_self_assessment_stage_info(cycle_id: int, db: Session) -> StageInfoRes
             is_completed=stage.is_completed
         )
     except HTTPException:
-        # propagate known HTTP exceptions
         raise
     except Exception as exception:
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
-
+# Get the information about lead assessment stage
 def fetch_lead_assessment_stage_info(cycle_id: int, db: Session) -> StageInfoResponse:
     try:
         stage = get_lead_assessment_stage_by_cycle_id(db, cycle_id)
