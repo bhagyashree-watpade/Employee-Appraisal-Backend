@@ -1,14 +1,12 @@
-
 from sqlalchemy.orm import Session
 from models.assignment import QuestionAssignment
-# from models.employee_allocation import EmployeeAllocation 
 from dao.employee_allocation import assign_employee_to_cycle  
 from schema.assignment import AssignmentCreate, AssignmentResponse
 from collections import defaultdict
-from sqlalchemy.exc import SQLAlchemyError, IntegrityError
+from sqlalchemy.exc import SQLAlchemyError
 from fastapi import HTTPException, status
 
-
+# To assign the employees for the cycles
 def create_question_assignment(db: Session, assignment_data: AssignmentCreate):
     try:
         new_assignments = []

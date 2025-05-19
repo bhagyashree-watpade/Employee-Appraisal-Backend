@@ -1,4 +1,3 @@
-
 from sqlalchemy.orm import Session
 from models.lead_assessment import LeadAssessmentRating
 from models.employee_allocation import EmployeeAllocation
@@ -6,6 +5,7 @@ from models.appraisal_cycle import AppraisalCycle
 from models.parameters import Parameter
 from sqlalchemy.exc import SQLAlchemyError
 
+# To save the ratings given by the the lead during lead assessment stage
 def save_lead_assessment_rating(db: Session, cycle_id: int, employee_id: int, ratings: list, discussion_date):
     try:
         active_cycle = db.query(AppraisalCycle).filter(
@@ -50,8 +50,6 @@ def save_lead_assessment_rating(db: Session, cycle_id: int, employee_id: int, ra
                     existing_rating.discussion_date = discussion_date
                     changes_made = True
             else:
-                # Skip if record not exists (as per your requirement)
-                # continue
                 new_rating = LeadAssessmentRating(
                 allocation_id=allocation.allocation_id,
                 cycle_id=cycle_id,
@@ -62,7 +60,7 @@ def save_lead_assessment_rating(db: Session, cycle_id: int, employee_id: int, ra
                 discussion_date=discussion_date
         )
         db.add(new_rating)
-        changes_made = True  # Mark insert
+        changes_made = True  
 
         if changes_made:
             db.commit()

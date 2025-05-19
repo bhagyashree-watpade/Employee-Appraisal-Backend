@@ -1,10 +1,8 @@
-
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError
 from dao.parameter import get_all_parameters, get_parameter_by_id, add_parameter, get_parameter_id_by_name
 from schema.parameter import ParameterCreate
 from fastapi import HTTPException, status
-
 
 def fetch_all_parameters(db: Session):
     """ Service function to get all parameters. """
@@ -24,7 +22,7 @@ def fetch_all_parameters(db: Session):
 
 
 def fetch_parameter_by_id(db: Session, parameter_id: int):
-    """ Service function to get a parameter by ID. """
+    """ Get a parameter by ID. """
     try:
         parameter = get_parameter_by_id(db, parameter_id)
         if not parameter:
@@ -41,7 +39,7 @@ def fetch_parameter_by_id(db: Session, parameter_id: int):
 
 
 def create_parameter(db: Session, parameter_data: ParameterCreate):
-    """ Service function to create a parameter with validation. """
+    """ Create a parameter with validation. """
     try:
         if not parameter_data.parameter_title:
             raise HTTPException(
@@ -63,7 +61,7 @@ def get_parameter_id(db: Session, cycle_id: int, parameter_title: str):
         parameter = get_parameter_id_by_name(db, cycle_id, parameter_title)
         if not parameter:
             return None
-        return parameter[0]  # Extracting parameter_id from tuple
+        return parameter[0]  
     except SQLAlchemyError as e:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,

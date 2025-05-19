@@ -1,5 +1,4 @@
 
-# WITH EXCEPTION HANDLING
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session
@@ -15,7 +14,7 @@ from services.appraisal_cycle import (
 )
 from schema.appraisal_cycle_pydantic import AppraisalCycleCreate, AppraisalCycleResponse, AppraisalCycleResponseWithStages
 from database.connection import get_db
-from models.appraisal_cycle import AppraisalCycle
+# from models.appraisal_cycle import AppraisalCycle
 
 router = APIRouter(prefix="/appraisal_cycle", tags=["Appraisal Cycle"])
 
